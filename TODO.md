@@ -32,13 +32,13 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 
 **Pass condition:** an engineer can compare credible solution shapes and record a bounded, reviewable decision without assuming that an LLM or agent is always required.
 
-## Milestone 4: Context, retrieval, and knowledge
+## Milestone 4: Context, retrieval, and knowledge — Complete
 
-- [ ] Define context assembly, authority, freshness, provenance, token-budget, and sensitive-data controls.
-- [ ] Define the RAG lifecycle: source approval, ingestion, parsing, chunking, metadata, indexing, retrieval, reranking, grounding, citation, refresh, and deletion.
-- [ ] Explain embedding and vector-search tradeoffs, including cases where lexical, relational, or graph retrieval is preferable.
-- [ ] Define access-control enforcement across ingestion, retrieval, generated answers, cache, and telemetry.
-- [ ] Define evaluation gates for retrieval relevance, answer support, freshness, leakage, and abstention.
+- [x] Define context assembly, authority, freshness, provenance, token-budget, and sensitive-data controls.
+- [x] Define the RAG lifecycle: source approval, ingestion, parsing, chunking, metadata, indexing, retrieval, reranking, grounding, citation, refresh, and deletion.
+- [x] Explain embedding and vector-search tradeoffs, including cases where lexical, relational, or graph retrieval is preferable.
+- [x] Define access-control enforcement across ingestion, retrieval, generated answers, cache, and telemetry.
+- [x] Define evaluation gates for retrieval relevance, answer support, freshness, leakage, and abstention.
 
 **Pass condition:** a team can design and review a grounded knowledge workflow with traceable sources, bounded access, measurable retrieval quality, and an explicit refresh strategy.
 
