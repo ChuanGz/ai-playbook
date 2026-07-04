@@ -11,9 +11,9 @@ The playbook documents decision controls and reference contracts. It is not a co
 ## Start here
 
 - [Documentation index](docs/README.md): enter by task and understand how the documents fit together.
-- [Playbook diagrams](docs/diagrams.md): see the decision lifecycle and capability/evidence map.
+- [Playbook diagrams](docs/playbook-map.md): see the decision lifecycle and capability/evidence map.
 - [System decision guide](docs/foundations/system-decision-guide.md): decide whether the solution needs deterministic software, model inference, retrieval, tools, a workflow, or an agent.
-- [Eight-milestone roadmap](TODO.md): see completed foundations, remaining work, and release gates.
+- [Eight-milestone roadmap](ROADMAP.md): see completed foundations, remaining work, and release gates.
 - [Maintenance policy](MAINTENANCE.md): understand content maturity, review triggers, versioning, and deprecation.
 - [Changelog](CHANGELOG.md): review user-visible release changes.
 
