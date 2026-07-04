@@ -62,14 +62,14 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 
 **Pass condition:** a release decision can cite repeatable evaluation, threat review, operational signals, failure handling, and named residual-risk owners.
 
-## Milestone 7: Application guides and bounded examples
+## Milestone 7: Application guides and bounded examples — Complete
 
-- [ ] Add one end-to-end guide that applies the playbook to a bounded AI-enabled workflow from decision through release review.
-- [ ] Add a small RAG example only where it clarifies ingestion, retrieval, citations, access control, and evaluation contracts.
-- [ ] Add a small MCP tool example only where it clarifies schema, authorization, errors, idempotency, and observability.
-- [ ] Add a small agent workflow example only where it clarifies approval, budget, termination, trace, and reconciliation behavior.
-- [ ] Label provider-specific adapters and prevent examples from becoming standalone products or implied reference architectures.
-- [ ] Use application repositories only as cited evidence after validating the relevant claim; do not copy application code or private business evidence.
+- [x] Add one end-to-end guide that applies the playbook to a bounded AI-enabled workflow from decision through release review.
+- [x] Add a small RAG example only where it clarifies ingestion, retrieval, citations, access control, and evaluation contracts.
+- [x] Add a small MCP tool example only where it clarifies schema, authorization, errors, idempotency, and observability.
+- [x] Add a small agent workflow example only where it clarifies approval, budget, termination, trace, and reconciliation behavior.
+- [x] Keep examples vendor-neutral and prevent them from becoming standalone products or implied reference architectures.
+- [x] Keep application code and private business evidence outside the playbook.
 
 **Pass condition:** each example exposes a real engineering decision or failure mode, passes its documented checks, and remains subordinate to a canonical contract.
 
