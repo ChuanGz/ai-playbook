@@ -1,5 +1,16 @@
 # AI Engineering Principles
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Engineers, architects, reviewers, and technical leaders |
+| Decision supported | Which constraints should govern an AI-enabled system decision |
+| Applies when | AI may affect software behavior, data, decisions, or external actions |
+| Does not apply when | A consuming policy or law requires stricter controls; those take precedence |
+| Expected output | Explicit decision constraints and review questions |
+| Evidence basis | Repository architecture and assurance contracts; public sources in [References](../references/README.md) |
+| Last reviewed | 2026-07-04 |
+
 These principles constrain decisions across the playbook. They are not implementation recipes; each consuming system still owns thresholds, policy, and evidence.
 
 ## Prefer the least complex credible system

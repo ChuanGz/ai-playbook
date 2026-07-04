@@ -1,5 +1,16 @@
 # Adoption and Governance
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Business owners, engineering leaders, architects, and governance reviewers |
+| Decision supported | Whether an AI initiative should pilot, scale, revise, or stop |
+| Applies when | An initiative has shared users, protected data, material cost, or consequential behavior |
+| Does not apply when | A low-risk personal experiment has no shared data or effects; scale controls proportionally |
+| Expected output | Owned pilot boundaries, scorecard, evidence, and decision |
+| Evidence basis | Repository lifecycle controls and [NIST references](../references/README.md#risk-and-governance) |
+| Last reviewed | 2026-07-04 |
+
 Use this guide to decide whether an AI-enabled workflow has enough ownership, evidence, and control to proceed. Tool activity is not an outcome, and a demonstration is not a validated pilot.
 
 ## Applicability

@@ -1,5 +1,16 @@
 # AI-Assisted Delivery
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Engineers, reviewers, QA, security reviewers, and release owners |
+| Decision supported | Whether AI-generated engineering work is acceptable |
+| Applies when | AI proposes code, documentation, decisions, tests, configuration, or actions |
+| Does not apply when | No AI-generated artifact or decision enters the delivery workflow |
+| Expected output | Reviewed artifact, deterministic validation, approvals, and traceability |
+| Evidence basis | Repository verification, authority, and release contracts |
+| Last reviewed | 2026-07-04 |
+
 Use these controls when AI proposes code, documentation, decisions, or actions during software delivery. The accepting engineer owns the result.
 
 ## Apply controls proportionally

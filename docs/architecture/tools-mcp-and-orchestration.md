@@ -1,5 +1,16 @@
 # Tools, MCP, Memory, and Orchestration
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | AI engineers, platform engineers, architects, and security reviewers |
+| Decision supported | How a model may use capabilities, state, workflows, delegation, and MCP boundaries |
+| Applies when | A system reads live state, writes memory, performs effects, or coordinates multiple steps |
+| Does not apply when | A direct deterministic operation or read-only model response satisfies the outcome |
+| Expected output | Typed capability, authority, state, orchestration, and termination contracts |
+| Evidence basis | Repository runtime controls and current [MCP specification reference](../references/README.md#protocols-and-observability) |
+| Last reviewed | 2026-07-04 |
+
 Use this reference when a model can access external capabilities, persist information, execute multiple steps, or delegate work. The design goal is bounded authority and recoverable execution, not maximum autonomy.
 
 ## Choose the execution model

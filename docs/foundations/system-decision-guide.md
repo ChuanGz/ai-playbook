@@ -1,5 +1,16 @@
 # AI System Decision Guide
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Architects, technical leads, and engineers selecting a solution shape |
+| Decision supported | Whether to use deterministic software, inference, retrieval, tools, workflow, or agents |
+| Applies when | A team is considering AI for a bounded user or business outcome |
+| Does not apply when | Requirements and acceptance evidence are still undefined |
+| Expected output | A reviewable architecture decision with alternatives and validation |
+| Evidence basis | Repository principles, runtime contracts, and assurance gates |
+| Last reviewed | 2026-07-04 |
+
 Use this guide before selecting a model, retrieval system, tool protocol, workflow engine, or agent framework. The goal is to choose the least complex solution that can satisfy the required outcome and failure constraints.
 
 ## 1. Define the decision

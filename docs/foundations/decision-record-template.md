@@ -1,5 +1,16 @@
 # AI Architecture Decision Record
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Decision authors, reviewers, and accountable technical owners |
+| Decision supported | How to record and review a material AI architecture choice |
+| Applies when | A choice changes capability, authority, risk, cost, or operational responsibility |
+| Does not apply when | The change is editorial and does not alter a decision contract |
+| Expected output | A versioned decision record with evidence and review trigger |
+| Evidence basis | [System Decision Guide](system-decision-guide.md) and [Maintenance Policy](../../MAINTENANCE.md) |
+| Last reviewed | 2026-07-04 |
+
 Copy this template into the consuming repository for a material AI system decision. Remove instructional text that does not apply, but do not omit a section merely because evidence is unavailable; record the gap and owner.
 
 ```markdown

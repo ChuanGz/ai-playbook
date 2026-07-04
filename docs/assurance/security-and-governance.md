@@ -1,5 +1,16 @@
 # Security and Governance
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Security, privacy, governance, architecture, and engineering reviewers |
+| Decision supported | Whether deterministic controls and ownership address material AI threats |
+| Applies when | Models, retrieval, tools, memory, agents, or external providers cross trust boundaries |
+| Does not apply when | Used as a substitute for applicable security, legal, privacy, or compliance review |
+| Expected output | Threat map, controls, verification, owners, and bounded exceptions |
+| Evidence basis | Repository threat controls; [NIST and OWASP references](../references/README.md) |
+| Last reviewed | 2026-07-04 |
+
 Use this reference to connect AI-specific threats to deterministic controls and accountable decisions. It complements, but does not replace, the consuming organization's security, privacy, legal, and compliance processes.
 
 ## Trust boundaries

@@ -1,5 +1,16 @@
 # Evaluation and Release
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | AI engineers, QA, reviewers, risk owners, and release owners |
+| Decision supported | Whether an AI-enabled change has enough evidence to release |
+| Applies when | A material model, retrieval, tool, workflow, policy, or user-impact change is proposed |
+| Does not apply when | A change cannot affect a documented decision contract or runtime behavior |
+| Expected output | Versioned evaluation evidence, thresholds, failures, exceptions, and release decision |
+| Evidence basis | Repository component, task, workflow, security, regression, and operations contracts |
+| Last reviewed | 2026-07-04 |
+
 Use this reference to decide whether an AI-enabled change has enough evidence to proceed. Evaluation must test the accepted task and its failures, not only model output in isolation.
 
 ## Evaluation layers

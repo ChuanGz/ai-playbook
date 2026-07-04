@@ -1,5 +1,16 @@
 # Agent Runtime
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Runtime architects, platform engineers, AI engineers, and operators |
+| Decision supported | Which component boundaries and guarantees a stateful agent runtime requires |
+| Applies when | An agent is multi-step, stateful, recoverable, or capable of material side effects |
+| Does not apply when | A read-only or single-turn assistant needs only a smaller explicit subset |
+| Expected output | Component responsibility map, contracts, failure behavior, and operability evidence |
+| Evidence basis | Repository architecture contracts; [OWASP, MCP, and OpenTelemetry references](../references/README.md) |
+| Last reviewed | 2026-07-04 |
+
 This reference defines vendor-neutral boundaries for agents that plan, use models and tools, retain memory, and perform controlled side effects. Model output is an untrusted proposal; durable state and accepted evidence remain authoritative.
 
 ## Applicability

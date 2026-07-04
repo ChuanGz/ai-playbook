@@ -1,5 +1,16 @@
 # Context, Retrieval, and Knowledge
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | AI engineers, data engineers, architects, security reviewers, and knowledge owners |
+| Decision supported | How to provide changing or source-citable knowledge to a model |
+| Applies when | A task needs authorized information beyond the current request |
+| Does not apply when | A deterministic query or direct source can satisfy the outcome |
+| Expected output | Governed source lifecycle, context manifest, retrieval design, and evaluation gates |
+| Evidence basis | Repository grounding controls; [NIST and OWASP references](../references/README.md) |
+| Last reviewed | 2026-07-04 |
+
 Use this reference when a model needs information beyond the current request. It separates ephemeral context assembly from governed knowledge storage and defines when retrieval-augmented generation is justified.
 
 ## Decide whether retrieval is needed

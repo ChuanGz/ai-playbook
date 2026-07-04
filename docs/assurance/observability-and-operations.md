@@ -1,5 +1,16 @@
 # Observability and Operations
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Operators, SREs, platform engineers, AI engineers, and incident owners |
+| Decision supported | Whether an AI-enabled workflow is observable, recoverable, and operable within bounds |
+| Applies when | A workflow has runtime dependencies, cost, user impact, or consequential failures |
+| Does not apply when | Telemetry is treated as authoritative state or requires collecting unjustified sensitive data |
+| Expected output | Owned signals, objectives, degradation, recovery, cost, and incident controls |
+| Evidence basis | Repository runtime and release contracts; [OpenTelemetry reference](../references/README.md#protocols-and-observability) |
+| Last reviewed | 2026-07-04 |
+
 Use this reference to operate AI-enabled workflows without confusing telemetry with authoritative state or collecting more sensitive content than the operation requires.
 
 ## Operational signals

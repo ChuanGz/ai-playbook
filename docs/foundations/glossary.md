@@ -1,5 +1,16 @@
 # Glossary
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | All playbook readers and contributors |
+| Decision supported | How repository terms map to one maintained meaning |
+| Applies when | Reading, writing, or mapping playbook contracts into another repository |
+| Does not apply when | A consuming system uses a different term; document the mapping instead |
+| Expected output | Consistent terminology or an explicit local mapping |
+| Evidence basis | Definitions used across the canonical playbook documents |
+| Last reviewed | 2026-07-04 |
+
 These definitions keep terms consistent inside this repository. A consuming system may use different names, but it should map them explicitly when applying the contracts.
 
 ## Core terms
