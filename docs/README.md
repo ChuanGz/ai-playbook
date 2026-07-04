@@ -2,11 +2,13 @@
 
 Use this index to choose the smallest set of guidance needed for a real decision. The documents are references and decision guides, not evidence that a consuming system passed review.
 
+New to the subject? Start with [How to read this playbook](reading-guide.md), then use [AI concepts in plain English](foundations/concepts-in-plain-english.md). You do not need to read the repository front to back.
+
 ## Content map
 
 | Area | State | Responsibility | Current content |
 |---|---|---|---|
-| Foundations | Stable | Durable principles, terms, and solution-selection decisions | [Principles](foundations/principles.md), [glossary](foundations/glossary.md), [system decision guide](foundations/system-decision-guide.md), [decision record](foundations/decision-record-template.md) |
+| Foundations | Stable | Durable principles, terms, and solution-selection decisions | [Concepts in plain English](foundations/concepts-in-plain-english.md), [principles](foundations/principles.md), [glossary](foundations/glossary.md), [system decision guide](foundations/system-decision-guide.md), [decision record](foundations/decision-record-template.md) |
 | Lifecycle | Stable | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
 | Architecture | Stable | Runtime, retrieval, tool, protocol, and agent boundaries | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md), [tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md), [agent runtime](architecture/agent-runtime.md) |
 | Assurance | Stable | Evaluation, security, observability, and release evidence | [Evaluation and release](assurance/evaluation-and-release.md), [security and governance](assurance/security-and-governance.md), [observability and operations](assurance/observability-and-operations.md) |
@@ -18,6 +20,7 @@ Use this index to choose the smallest set of guidance needed for a real decision
 
 | If you need to... | Start with | Expected result |
 |---|---|---|
+| Understand the vocabulary before making a design decision | [Concepts in plain English](foundations/concepts-in-plain-english.md) | A mental model of inference, context, RAG, tools, workflows, agents, MCP, and evaluation |
 | Decide whether AI belongs in a solution | [System decision guide](foundations/system-decision-guide.md) | A recorded solution shape, alternatives, evidence plan, and review trigger |
 | Approve, revise, scale, or stop an AI initiative | [Adoption and governance](lifecycle/adoption-and-governance.md) | Named owners, pilot gates, scorecard, and an evidence-backed decision |
 | Accept AI-generated engineering work | [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) | Bounded context, deterministic checks, approval evidence, and traceability |

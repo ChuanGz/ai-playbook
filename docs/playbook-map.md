@@ -2,6 +2,8 @@
 
 These diagrams show how the playbook fits together. They describe document responsibilities, not a deployable system architecture.
 
+For a guided entry point, use [How to read this playbook](reading-guide.md). For the capability progression from deterministic code to agents, use [AI concepts in plain English](foundations/concepts-in-plain-english.md).
+
 ## Decision and operating lifecycle
 
 ```mermaid

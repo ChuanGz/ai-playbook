@@ -2,6 +2,17 @@
 
 All notable user-visible changes to this project are documented here. The project follows semantic versioning for documentation contracts as defined in [MAINTENANCE.md](MAINTENANCE.md).
 
+## Unreleased
+
+### Added in the next release
+
+- Role-based reading paths that state the practical output expected for developers, AI engineers, staff engineers, architects, leaders, security reviewers, and operators.
+- A plain-English concept guide that explains the capability progression from deterministic code to agents through one concrete example.
+
+### Changed in the next release
+
+- Annotated external references with approachable starting points and clear reasons to follow each link.
+
 ## 1.0.0 - 2026-07-04
 
 ### Added

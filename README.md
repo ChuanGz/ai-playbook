@@ -2,6 +2,21 @@
 
 A vendor-neutral playbook for engineers and technical leaders who must decide where AI belongs, control its failure modes, and require evidence before adoption or release.
 
+## What this repository gives you
+
+This playbook turns broad advice such as “use RAG,” “add an agent,” or “evaluate the model” into reviewable engineering decisions. A reader should leave with an artifact they can use: a solution-shape decision, a bounded contract, an evaluation plan, a release gate, or an operational control.
+
+| Reader | Practical value |
+|---|---|
+| Software developer | Know when ordinary code is enough, how to treat model output safely, and what to test before merging AI-assisted work |
+| AI engineer | Design retrieval, tools, memory, and agent behavior as explicit contracts rather than prompt-only behavior |
+| Staff or principal engineer | Compare credible alternatives, expose trade-offs, and define evidence that can support an architecture or release decision |
+| Architect | Separate system responsibilities and trust boundaries while avoiding unnecessary agent complexity |
+| Engineering leader | Set pilot, ownership, approval, scale, and stop gates without pretending that a demo proves value |
+| Security or operations reviewer | Review authority, data handling, failure recovery, telemetry, cost, and incident ownership |
+
+The repository does not teach a framework API. It helps readers ask better questions before choosing one and verify the resulting system afterward.
+
 ## Status
 
 Version 1.0 provides a stable initial documentation set for AI system decisions, adoption, delivery, retrieval, tools, MCP, agents, evaluation, security, and operations. Stable means the repository's current recommendation under its stated conditions; it does not certify any consuming system.
@@ -10,6 +25,8 @@ The playbook documents decision controls and reference contracts. It is not a co
 
 ## Start here
 
+- [How to read this playbook](docs/reading-guide.md): choose a short path by experience, role, or immediate problem.
+- [AI concepts in plain English](docs/foundations/concepts-in-plain-english.md): understand the terms through one progressively expanded example.
 - [Documentation index](docs/README.md): enter by task and understand how the documents fit together.
 - [Playbook diagrams](docs/playbook-map.md): see the decision lifecycle and capability/evidence map.
 - [System decision guide](docs/foundations/system-decision-guide.md): decide whether the solution needs deterministic software, model inference, retrieval, tools, a workflow, or an agent.
