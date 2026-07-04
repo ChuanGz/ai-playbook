@@ -73,15 +73,16 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 
 **Pass condition:** each example exposes a real engineering decision or failure mode, passes its documented checks, and remains subordinate to a canonical contract.
 
-## Milestone 8: Coherent release
+## Milestone 8: Coherent release — Complete
 
-- [x] Add an initial task-based documentation index and extend it as new canonical content is completed.
-- [ ] Define one glossary for model, context, memory, retrieval, tool, MCP, agent, workflow, evaluation, runtime, and approval terminology.
-- [ ] Remove duplicated or conflicting guidance and record any superseded document.
-- [x] Establish a primary-reference policy and initial public [reference index](docs/references/README.md); continue adding source-level provenance with new guidance.
-- [ ] Pass Markdown lint, internal and external link checks, secret and private-evidence review, and unsupported-claim review.
-- [ ] Confirm that `README.md`, the documentation index, and this roadmap describe the same ownership boundaries and status.
-- [ ] Tag the first release only when Milestones 3–7 satisfy their pass conditions and final CI passes.
+- [x] Add a task-based documentation index and content-state catalog.
+- [x] Define one glossary for model, context, memory, retrieval, tool, MCP, agent, workflow, evaluation, runtime, and approval terminology.
+- [x] Remove duplicated or conflicting guidance and define deprecation and supersession rules.
+- [x] Establish a primary-reference policy and public [reference index](docs/references/README.md).
+- [x] Add decision-lifecycle and capability/evidence diagrams.
+- [x] Pass Markdown lint, internal and external link checks, private-evidence review, and unsupported-claim review.
+- [x] Align `README.md`, the documentation index, maintenance policy, changelog, and this roadmap.
+- [x] Prepare the first release after Milestones 3–7 satisfy their pass conditions.
 
 **Outcome:** readers can enter by role or task, follow consistent terminology, trace important claims, and distinguish documented contracts from system-specific evidence.
 

@@ -4,15 +4,15 @@ Use this index to choose the smallest set of guidance needed for a real decision
 
 ## Content map
 
-| Area | Responsibility | Current content |
-|---|---|---|
-| Foundations | Durable principles, terms, and solution-selection decisions | [Principles](foundations/principles.md), [system decision guide](foundations/system-decision-guide.md), [decision record](foundations/decision-record-template.md) |
-| Lifecycle | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
-| Architecture | Runtime, retrieval, tool, protocol, and agent boundaries | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md), [tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md), [agent runtime](architecture/agent-runtime.md) |
-| Assurance | Evaluation, security, observability, and release evidence | [Evaluation and release](assurance/evaluation-and-release.md), [security and governance](assurance/security-and-governance.md), [observability and operations](assurance/observability-and-operations.md) |
-| Guides | End-to-end application of multiple contracts | [Bounded AI workflow to release review](guides/bounded-ai-workflow.md) |
-| Examples | Small artifacts that expose a decision or failure mode | [Grounded answer](examples/grounded-answer-contract.md), [approval-gated MCP tool](examples/approved-mcp-tool.md), [bounded agent](examples/bounded-agent-workflow.md) |
-| References | Public sources and repository interpretation rules | [References](references/README.md) |
+| Area | State | Responsibility | Current content |
+|---|---|---|---|
+| Foundations | Stable | Durable principles, terms, and solution-selection decisions | [Principles](foundations/principles.md), [glossary](foundations/glossary.md), [system decision guide](foundations/system-decision-guide.md), [decision record](foundations/decision-record-template.md) |
+| Lifecycle | Stable | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
+| Architecture | Stable | Runtime, retrieval, tool, protocol, and agent boundaries | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md), [tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md), [agent runtime](architecture/agent-runtime.md) |
+| Assurance | Stable | Evaluation, security, observability, and release evidence | [Evaluation and release](assurance/evaluation-and-release.md), [security and governance](assurance/security-and-governance.md), [observability and operations](assurance/observability-and-operations.md) |
+| Guides | Stable | End-to-end application of multiple contracts | [Bounded AI workflow to release review](guides/bounded-ai-workflow.md) |
+| Examples | Stable | Small artifacts that expose a decision or failure mode | [Grounded answer](examples/grounded-answer-contract.md), [approval-gated MCP tool](examples/approved-mcp-tool.md), [bounded agent](examples/bounded-agent-workflow.md) |
+| References | Stable | Public sources and repository interpretation rules | [References](references/README.md) |
 
 ## Choose a task
 
@@ -31,6 +31,8 @@ Use this index to choose the smallest set of guidance needed for a real decision
 
 See [References](references/README.md) for the external standards and specifications that inform terminology and review questions. See [MAINTENANCE.md](../MAINTENANCE.md) for maturity, review, change, and deprecation rules.
 
+See [Playbook diagrams](diagrams.md) for the decision lifecycle and capability/evidence map.
+
 ## Recommended sequence
 
 1. Use the decision guide to choose the least complex credible solution.
@@ -38,9 +40,9 @@ See [References](references/README.md) for the external standards and specificat
 3. Apply delivery controls whenever AI proposes engineering artifacts or actions.
 4. Apply runtime contracts only when the solution actually uses tools, memory, orchestration, or agents.
 
-## Current limits
+## Boundaries
 
-The repository does not yet contain complete guidance for RAG, MCP, evaluation systems, operational readiness, or worked implementations. Those gaps are tracked in the [roadmap](../TODO.md). Do not infer missing controls from folder names or planned milestones.
+The repository defines reusable guidance and bounded examples. It does not provide a complete application, select a vendor, establish organization policy, certify compliance, or prove production readiness. The [roadmap](../TODO.md) records the completed initial scope and remains the place for future milestone changes.
 
 ## Evidence and interpretation
 

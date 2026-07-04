@@ -23,8 +23,11 @@ jobs:
             echo "OS-generated files must not be committed."
             exit 1
           fi
-          if grep -R -n -E \
-            'actions/checkout@v4|DavidAnson/markdownlint-cli2-action@v20' \
+          deprecated_checkout='actions/checkout@v''4'
+          deprecated_markdownlint='DavidAnson/markdownlint-cli2-action@v''20'
+          if grep -R -n -F \
+            -e "$deprecated_checkout" \
+            -e "$deprecated_markdownlint" \
             .github/workflows; then
             echo "Deprecated Node runtime actions are not allowed."
             exit 1

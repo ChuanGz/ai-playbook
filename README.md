@@ -4,16 +4,18 @@ A vendor-neutral playbook for engineers and technical leaders who must decide wh
 
 ## Status
 
-The repository is an early, usable documentation project. Adoption, AI-assisted delivery, agent-runtime, and system-design guidance are available; retrieval, MCP, evaluation, operations, and worked examples remain on the roadmap.
+Version 1.0 provides a stable initial documentation set for AI system decisions, adoption, delivery, retrieval, tools, MCP, agents, evaluation, security, and operations. Stable means the repository's current recommendation under its stated conditions; it does not certify any consuming system.
 
 The playbook documents decision controls and reference contracts. It is not a compliance framework, certification, complete security standard, or proof that any described system is production-ready.
 
 ## Start here
 
 - [Documentation index](docs/README.md): enter by task and understand how the documents fit together.
+- [Playbook diagrams](docs/diagrams.md): see the decision lifecycle and capability/evidence map.
 - [System decision guide](docs/foundations/system-decision-guide.md): decide whether the solution needs deterministic software, model inference, retrieval, tools, a workflow, or an agent.
 - [Eight-milestone roadmap](TODO.md): see completed foundations, remaining work, and release gates.
 - [Maintenance policy](MAINTENANCE.md): understand content maturity, review triggers, versioning, and deprecation.
+- [Changelog](CHANGELOG.md): review user-visible release changes.
 
 ## Setup
 
