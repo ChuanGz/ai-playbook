@@ -16,6 +16,19 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v23
         with:
           globs: "**/*.md"
+      - name: Check public repository hygiene
+        shell: bash
+        run: |
+          if find . -name .DS_Store -o -name Thumbs.db | grep -q .; then
+            echo "OS-generated files must not be committed."
+            exit 1
+          fi
+          if grep -R -n -E \
+            'actions/checkout@v4|DavidAnson/markdownlint-cli2-action@v20' \
+            .github/workflows; then
+            echo "Deprecated Node runtime actions are not allowed."
+            exit 1
+          fi
       - uses: lycheeverse/lychee-action@v2
         with:
           args: --no-progress --max-retries 2 "**/*.md"
