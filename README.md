@@ -11,8 +11,9 @@ The playbook documents decision controls and reference contracts. It is not a co
 ## Start here
 
 - [Documentation index](docs/README.md): enter by task and understand how the documents fit together.
-- [AI system decision guide](docs/ai-system-decision-guide.md): decide whether the solution needs deterministic software, model inference, retrieval, tools, a workflow, or an agent.
+- [System decision guide](docs/foundations/system-decision-guide.md): decide whether the solution needs deterministic software, model inference, retrieval, tools, a workflow, or an agent.
 - [Eight-milestone roadmap](TODO.md): see completed foundations, remaining work, and release gates.
+- [Maintenance policy](MAINTENANCE.md): understand content maturity, review triggers, versioning, and deprecation.
 
 ## Setup
 
@@ -20,7 +21,7 @@ No build or runtime setup is required. Read the Markdown files directly.
 
 ## Usage
 
-Start with the [AI system decision guide](docs/ai-system-decision-guide.md), then use the [documentation index](docs/README.md) to apply the relevant controls. Record architecture decisions, thresholds, tests, approvals, and operational evidence in the consuming project; do not treat this repository as evidence that a system passed its own controls.
+Start with the [AI system decision guide](docs/foundations/system-decision-guide.md), then use the [documentation index](docs/README.md) to apply the relevant controls. Record architecture decisions, thresholds, tests, approvals, and operational evidence in the consuming project; do not treat this repository as evidence that a system passed its own controls.
 
 ## Scope
 

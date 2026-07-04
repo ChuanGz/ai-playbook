@@ -14,9 +14,9 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 
 ## Milestone 2: Canonical foundation — Complete
 
-- [x] Rewrite durable adoption and governance guidance into [adoption and governance](docs/adoption-and-governance.md).
-- [x] Rewrite AI-specific delivery controls into [AI-assisted delivery](docs/ai-assisted-delivery.md).
-- [x] Rewrite agent-runtime contracts into [agent runtime](docs/agent-runtime.md).
+- [x] Rewrite durable adoption and governance guidance into [adoption and governance](docs/lifecycle/adoption-and-governance.md).
+- [x] Rewrite AI-specific delivery controls into [AI-assisted delivery](docs/lifecycle/ai-assisted-delivery.md).
+- [x] Rewrite agent-runtime contracts into [agent runtime](docs/architecture/agent-runtime.md).
 - [x] Review the canonical documents for duplication, unsuitable material, private evidence, and unsupported claims.
 - [x] Publish and validate the canonical foundation on the public default branch.
 - [x] Keep career guidance, reusable knowledge tooling, applications, and reference implementations outside this repository.
@@ -78,7 +78,7 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 - [x] Add an initial task-based documentation index and extend it as new canonical content is completed.
 - [ ] Define one glossary for model, context, memory, retrieval, tool, MCP, agent, workflow, evaluation, runtime, and approval terminology.
 - [ ] Remove duplicated or conflicting guidance and record any superseded document.
-- [x] Establish a primary-reference policy and initial public [reference index](docs/references.md); continue adding source-level provenance with new guidance.
+- [x] Establish a primary-reference policy and initial public [reference index](docs/references/README.md); continue adding source-level provenance with new guidance.
 - [ ] Pass Markdown lint, internal and external link checks, secret and private-evidence review, and unsupported-claim review.
 - [ ] Confirm that `README.md`, the documentation index, and this roadmap describe the same ownership boundaries and status.
 - [ ] Tag the first release only when Milestones 3–7 satisfy their pass conditions and final CI passes.

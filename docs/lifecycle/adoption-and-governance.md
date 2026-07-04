@@ -63,4 +63,4 @@ A pilot is complete only when the scorecard is populated, failures and rejected 
 
 ## Related references
 
-The [NIST AI Risk Management Framework and Generative AI Profile](references.md#risk-and-governance) provide broader risk-management context. This playbook's lifecycle and scorecard are project guidance, not a claim of NIST conformance.
+The [NIST AI Risk Management Framework and Generative AI Profile](../references/README.md#risk-and-governance) provide broader risk-management context. This playbook's lifecycle and scorecard are project guidance, not a claim of NIST conformance.

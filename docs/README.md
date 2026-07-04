@@ -2,16 +2,28 @@
 
 Use this index to choose the smallest set of guidance needed for a real decision. The documents are references and decision guides, not evidence that a consuming system passed review.
 
+## Content map
+
+| Area | Responsibility | Current content |
+|---|---|---|
+| Foundations | Durable terms and solution-selection decisions | [System decision guide](foundations/system-decision-guide.md) |
+| Lifecycle | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
+| Architecture | Runtime, retrieval, tool, protocol, and agent boundaries | [Agent runtime](architecture/agent-runtime.md) |
+| Assurance | Evaluation, security, observability, and release evidence | Planned in the [roadmap](../TODO.md) |
+| Guides | End-to-end application of multiple contracts | Planned in the [roadmap](../TODO.md) |
+| Examples | Small artifacts that expose a decision or failure mode | Planned in the [roadmap](../TODO.md) |
+| References | Public sources and repository interpretation rules | [References](references/README.md) |
+
 ## Choose a task
 
 | If you need to... | Start with | Expected result |
 |---|---|---|
-| Decide whether AI belongs in a solution | [AI system decision guide](ai-system-decision-guide.md) | A recorded solution shape, alternatives, evidence plan, and review trigger |
-| Approve, revise, scale, or stop an AI initiative | [Adoption and governance](adoption-and-governance.md) | Named owners, pilot gates, scorecard, and an evidence-backed decision |
-| Accept AI-generated engineering work | [AI-assisted delivery](ai-assisted-delivery.md) | Bounded context, deterministic checks, approval evidence, and traceability |
-| Review an agent runtime design | [Agent runtime](agent-runtime.md) | Explicit component ownership, contracts, failure behavior, and security controls |
+| Decide whether AI belongs in a solution | [System decision guide](foundations/system-decision-guide.md) | A recorded solution shape, alternatives, evidence plan, and review trigger |
+| Approve, revise, scale, or stop an AI initiative | [Adoption and governance](lifecycle/adoption-and-governance.md) | Named owners, pilot gates, scorecard, and an evidence-backed decision |
+| Accept AI-generated engineering work | [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) | Bounded context, deterministic checks, approval evidence, and traceability |
+| Review an agent runtime design | [Agent runtime](architecture/agent-runtime.md) | Explicit component ownership, contracts, failure behavior, and security controls |
 
-See [References](references.md) for the external standards and specifications that inform terminology and review questions.
+See [References](references/README.md) for the external standards and specifications that inform terminology and review questions. See [MAINTENANCE.md](../MAINTENANCE.md) for maturity, review, change, and deprecation rules.
 
 ## Recommended sequence
 

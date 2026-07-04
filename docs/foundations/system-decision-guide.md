@@ -89,9 +89,9 @@ The decision passes review only when alternatives are credible, thresholds are o
 
 ## 6. Continue through the playbook
 
-- Apply [adoption and governance](adoption-and-governance.md) before piloting or scaling.
-- Apply [AI-assisted delivery](ai-assisted-delivery.md) to generated engineering artifacts.
-- Apply [agent runtime](agent-runtime.md) only when the selected shape requires agent capabilities.
+- Apply [adoption and governance](../lifecycle/adoption-and-governance.md) before piloting or scaling.
+- Apply [AI-assisted delivery](../lifecycle/ai-assisted-delivery.md) to generated engineering artifacts.
+- Apply [agent runtime](../architecture/agent-runtime.md) only when the selected shape requires agent capabilities.
 
 ## Boundaries
 

@@ -66,4 +66,4 @@ Trace an accepted outcome to the request, plan version, configuration snapshot, 
 
 ## Related references
 
-Use the [OWASP, MCP, and OpenTelemetry references](references.md#application-and-agent-security) when the implementation introduces LLM-specific threats, MCP boundaries, or shared telemetry conventions. These sources complement rather than validate the runtime design.
+Use the [OWASP, MCP, and OpenTelemetry references](../references/README.md#application-and-agent-security) when the implementation introduces LLM-specific threats, MCP boundaries, or shared telemetry conventions. These sources complement rather than validate the runtime design.
