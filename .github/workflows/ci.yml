@@ -32,6 +32,22 @@ jobs:
             echo "Deprecated Node runtime actions are not allowed."
             exit 1
           fi
+          migration_file='MIGRATION''.md'
+          if find . -type f \( \
+            -name "$migration_file" -o \
+            -name '*migration-assessment*' \
+          \) | grep -q .; then
+            echo "Internal migration history must not be published."
+            exit 1
+          fi
+          local_user_root='/''Users/'
+          if grep -R -n -F "$local_user_root" \
+            --include='*.md' \
+            --exclude-dir=.git \
+            .; then
+            echo "Absolute local machine paths must not be published."
+            exit 1
+          fi
       - uses: lycheeverse/lychee-action@v2
         with:
           args: --no-progress --max-retries 2 "**/*.md"

@@ -1,5 +1,16 @@
 # Guide: Take a Bounded AI Workflow to Release Review
 
+| Field | Value |
+|---|---|
+| Status | Stable |
+| Audience | Cross-functional engineering teams preparing a bounded AI workflow for review |
+| Decision supported | Whether to release, revise, narrow, pilot, or stop one workflow |
+| Applies when | A team can name the outcome, owner, data boundary, and consequence of failure |
+| Does not apply when | The task is still exploratory and has no observable acceptance outcome |
+| Expected output | Decision record, contracts, evaluation, risk review, and release evidence |
+| Evidence basis | Canonical foundation, lifecycle, architecture, and assurance documents |
+| Last reviewed | 2026-07-04 |
+
 This guide helps an experienced team apply the playbook to one AI-enabled workflow. It does not prescribe a vendor or guarantee release approval.
 
 ## Prerequisites

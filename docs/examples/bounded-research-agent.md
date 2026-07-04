@@ -1,6 +1,21 @@
 # Example: Bounded Research Agent
 
+| Field | Value |
+|---|---|
+| Status | Stable, illustrative |
+| Audience | Engineers and reviewers deciding whether a research task justifies an agent |
+| Decision supported | How to bound read-only planning, retrieval, replanning, and termination |
+| Applies when | Source discovery and comparison require runtime choices within a read-only scope |
+| Does not apply when | A fixed search sequence or deterministic query can satisfy the outcome |
+| Expected output | Cited draft, evidence manifest, limitations, or bounded insufficient-evidence result |
+| Evidence basis | [Agent Runtime](../architecture/agent-runtime.md) and [Evaluation and Release](../assurance/evaluation-and-release.md) |
+| Last reviewed | 2026-07-04 |
+
 This illustrative workflow shows an agent that gathers public sources and drafts a comparison. It cannot publish, purchase, message, or access private systems.
+
+## Why this shape
+
+An agent is selected because source discovery may require revising search terms and evidence coverage at runtime. A fixed workflow remains preferable when the source set and query sequence are known. Multiple agents were rejected because isolated roles or parallel authority do not add demonstrated value to this bounded task.
 
 ## Goal and boundary
 
@@ -41,6 +56,18 @@ Record request, plan versions, searches, retrieved revisions, selected passages,
 - budget or deadline is reached;
 - a source requires authentication;
 - citation no longer resolves.
+
+## Failure demonstrated
+
+Without explicit bounds, a research agent can loop over equivalent queries, consume unbounded resources, treat source instructions as authority, or overstate conclusions when evidence is weak.
+
+## Evidence required
+
+Evaluation must show termination at every limit, refusal of private or effectful capabilities, citation resolution, conflict handling, injection isolation, budget accounting, and accurate insufficient-evidence output.
+
+## Decision-change trigger
+
+Reconsider the design if the agent gains private access, code execution, communication, publication, external effects, broader delegation, or a materially different evidence standard.
 
 ## Pass condition
 

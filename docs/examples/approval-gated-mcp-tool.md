@@ -1,6 +1,21 @@
 # Example: Approval-Gated MCP Tool
 
+| Field | Value |
+|---|---|
+| Status | Stable, illustrative |
+| Audience | Engineers and security reviewers exposing consequential capabilities through MCP |
+| Decision supported | How to separate model selection, authorization, approval, and effect execution |
+| Applies when | A model may propose a reversible external side effect |
+| Does not apply when | A deterministic UI or direct API can satisfy the task without model selection |
+| Expected output | One attributable draft effect or a typed non-effect result |
+| Evidence basis | [Tools, MCP, Memory, and Orchestration](../architecture/tools-mcp-and-orchestration.md) |
+| Last reviewed | 2026-07-04 |
+
 This illustrative contract shows a consequential tool exposed through MCP. It does not depend on a specific SDK or transport.
+
+## Why this shape
+
+The model may translate natural-language intent into draft arguments, but deterministic controls own validation, authorization, approval, credentials, and execution. Allowing the model to approve or submit was rejected because generated text cannot establish accountable authority.
 
 ## Capability
 
@@ -39,6 +54,18 @@ This illustrative contract shows a consequential tool exposed through MCP. It do
 | `approval_required` | Exact approval is absent or expired | Resume after approval |
 | `dependency_unavailable` | Draft service is temporarily unavailable | Bounded retry |
 | `effect_unknown` | Invocation outcome is ambiguous | Reconcile; do not invoke again blindly |
+
+## Failure demonstrated
+
+A timeout can occur after the external system creates the draft. Blind retry may duplicate the effect, so the contract requires an idempotency key and status reconciliation.
+
+## Evidence required
+
+Tests must show denial outside permission scope, approval invalidation after argument changes, credential isolation, bounded retry, timeout reconciliation, and one receipt per accepted effect.
+
+## Decision-change trigger
+
+Review the contract when the tool gains irreversible behavior, higher-value amounts, new data classes, different authentication, remote transport, or a submit capability.
 
 ## Pass condition
 

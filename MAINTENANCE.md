@@ -25,6 +25,8 @@ Review affected guidance when any of these occur:
 
 Time-based review does not require rewriting stable content. It requires confirming sources, links, boundaries, and continued decision value.
 
+Section indexes record the current content state. Canonical documents record their own last-reviewed date. A review that changes neither guidance nor evidence may update the date with a commit explaining what was checked.
+
 ## Change classes
 
 - **Patch:** clarity, links, examples, or corrections that do not change a decision contract.
