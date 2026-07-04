@@ -6,7 +6,7 @@ Use this index to choose the smallest set of guidance needed for a real decision
 
 | Area | Responsibility | Current content |
 |---|---|---|
-| Foundations | Durable terms and solution-selection decisions | [System decision guide](foundations/system-decision-guide.md) |
+| Foundations | Durable principles, terms, and solution-selection decisions | [Principles](foundations/principles.md), [system decision guide](foundations/system-decision-guide.md), [decision record](foundations/decision-record-template.md) |
 | Lifecycle | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
 | Architecture | Runtime, retrieval, tool, protocol, and agent boundaries | [Agent runtime](architecture/agent-runtime.md) |
 | Assurance | Evaluation, security, observability, and release evidence | Planned in the [roadmap](../TODO.md) |

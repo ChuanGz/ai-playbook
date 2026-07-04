@@ -58,32 +58,7 @@ Repair invalid output only within a bounded attempt and budget. Do not retry pol
 
 ## 5. Record the architecture decision
 
-Use this minimum record:
-
-```markdown
-# Decision: <short title>
-
-## Context and outcome
-<Who needs what result, under which constraints?>
-
-## Decision drivers
-<Quality, risk, data, latency, cost, operability, and ownership forces.>
-
-## Options considered
-<Include the simplest deterministic option and credible AI alternatives.>
-
-## Decision
-<Selected shape, boundaries, and why it wins under these conditions.>
-
-## Consequences and risks
-<Benefits, coupling, new failure modes, operational cost, and residual risks.>
-
-## Validation
-<Evaluation set, tests, thresholds, approvals, and operational evidence required.>
-
-## Owner and review trigger
-<Accountable owner and changes that require reconsideration.>
-```
+Use the [AI Architecture Decision Record](decision-record-template.md) for a material choice.
 
 The decision passes review only when alternatives are credible, thresholds are owned, and validation can falsify the selected approach.
 
