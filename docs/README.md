@@ -8,7 +8,7 @@ Use this index to choose the smallest set of guidance needed for a real decision
 |---|---|---|
 | Foundations | Durable principles, terms, and solution-selection decisions | [Principles](foundations/principles.md), [system decision guide](foundations/system-decision-guide.md), [decision record](foundations/decision-record-template.md) |
 | Lifecycle | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
-| Architecture | Runtime, retrieval, tool, protocol, and agent boundaries | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md), [agent runtime](architecture/agent-runtime.md) |
+| Architecture | Runtime, retrieval, tool, protocol, and agent boundaries | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md), [tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md), [agent runtime](architecture/agent-runtime.md) |
 | Assurance | Evaluation, security, observability, and release evidence | Planned in the [roadmap](../TODO.md) |
 | Guides | End-to-end application of multiple contracts | Planned in the [roadmap](../TODO.md) |
 | Examples | Small artifacts that expose a decision or failure mode | Planned in the [roadmap](../TODO.md) |
@@ -23,6 +23,7 @@ Use this index to choose the smallest set of guidance needed for a real decision
 | Accept AI-generated engineering work | [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) | Bounded context, deterministic checks, approval evidence, and traceability |
 | Review an agent runtime design | [Agent runtime](architecture/agent-runtime.md) | Explicit component ownership, contracts, failure behavior, and security controls |
 | Design a grounded knowledge workflow | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md) | Governed sources, context manifest, retrieval choices, evaluation gates, refresh, and deletion |
+| Expose tools or orchestrate agents | [Tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md) | Typed capabilities, explicit trust boundaries, governed state, bounded delegation, and termination |
 
 See [References](references/README.md) for the external standards and specifications that inform terminology and review questions. See [MAINTENANCE.md](../MAINTENANCE.md) for maturity, review, change, and deprecation rules.
 

@@ -42,13 +42,13 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 
 **Pass condition:** a team can design and review a grounded knowledge workflow with traceable sources, bounded access, measurable retrieval quality, and an explicit refresh strategy.
 
-## Milestone 5: Tools, MCP, and agent orchestration
+## Milestone 5: Tools, MCP, and agent orchestration — Complete
 
-- [ ] Define tool contracts for schemas, capability metadata, authorization, credentials, timeouts, idempotency, side effects, reconciliation, and audit receipts.
-- [ ] Define MCP client/server trust boundaries, capability discovery, versioning, error handling, and transport-independent controls.
-- [ ] Expand planning and orchestration guidance for dependency graphs, bounded delegation, concurrency, budgets, cancellation, termination, and human approval.
-- [ ] Define memory write policy, provenance, isolation, retention, poisoning controls, and deletion.
-- [ ] Add decision criteria for a workflow, a single agent, or multiple agents.
+- [x] Define tool contracts for schemas, capability metadata, authorization, credentials, timeouts, idempotency, side effects, reconciliation, and audit receipts.
+- [x] Define MCP client/server trust boundaries, capability discovery, versioning, error handling, and transport-independent controls.
+- [x] Expand planning and orchestration guidance for dependency graphs, bounded delegation, concurrency, budgets, cancellation, termination, and human approval.
+- [x] Define memory write policy, provenance, isolation, retention, poisoning controls, and deletion.
+- [x] Add decision criteria for a workflow, a single agent, or multiple agents.
 
 **Pass condition:** every proposed tool call, delegation, memory write, and side effect has an accountable authorization path, bounded execution contract, and recoverable failure behavior.
 
