@@ -16,7 +16,9 @@ Documentation-only changes must remain reviewable without requiring access to a 
 
 ## Quality standard
 
-Use US English and repository Markdown conventions. Each control needs an observable pass condition. Do not claim production readiness, scalability, security, or effectiveness without defined context and evidence. Run Markdown lint and link checks, review the changed content for secrets and unsupported claims, and update affected navigation.
+Follow the [Writing Standard](docs/contributing/writing-standard.md), [Evidence Policy](docs/contributing/evidence-policy.md), and repository Markdown conventions. Each control needs an observable pass condition. Do not claim production readiness, scalability, security, or effectiveness without defined context and evidence. Run Markdown lint and link checks, review the changed content for secrets and unsupported claims, and update affected navigation.
+
+The repository does not require a particular writing tool or AI skill. Maintainers review the resulting reasoning, evidence, boundaries, and maintainability.
 
 ## Breaking changes
 

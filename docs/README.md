@@ -38,7 +38,7 @@ Use this index to choose the smallest set of guidance needed for a real decision
 | AI engineer | [System decision guide](foundations/system-decision-guide.md) → [architecture](architecture/README.md) → [bounded workflow guide](guides/take-a-bounded-ai-workflow-to-release.md) |
 | Security reviewer | [Security and governance](assurance/security-and-governance.md) → [tools and MCP](architecture/tools-mcp-and-orchestration.md) → [evaluation and release](assurance/evaluation-and-release.md) |
 | Operator or SRE | [Agent runtime](architecture/agent-runtime.md) → [observability and operations](assurance/observability-and-operations.md) → [evaluation and release](assurance/evaluation-and-release.md) |
-| Contributor | [Contributing](../CONTRIBUTING.md) → [maintenance policy](../MAINTENANCE.md) → [references](references/README.md) |
+| Contributor | [Writing standard](contributing/writing-standard.md) → [evidence policy](contributing/evidence-policy.md) → [contributing](../CONTRIBUTING.md) → [maintenance policy](../MAINTENANCE.md) |
 
 See [References](references/README.md) for the external standards and specifications that inform terminology and review questions. See [MAINTENANCE.md](../MAINTENANCE.md) for maturity, review, change, and deprecation rules.
 
