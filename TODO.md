@@ -52,13 +52,13 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 
 **Pass condition:** every proposed tool call, delegation, memory write, and side effect has an accountable authorization path, bounded execution contract, and recoverable failure behavior.
 
-## Milestone 6: Evaluation, security, and operations
+## Milestone 6: Evaluation, security, and operations — Complete
 
-- [ ] Define evaluation layers for components, tasks, workflows, regressions, safety, and release acceptance.
-- [ ] Define dataset provenance, representative cases, adversarial cases, scoring limits, human review, and change-triggered reevaluation.
-- [ ] Define AI-specific threat controls for prompt injection, data leakage, unauthorized tools, memory poisoning, model or dependency supply-chain risk, and audit tampering.
-- [ ] Define observability for model calls, retrieval, tool effects, approvals, quality, cost, latency, failures, and correlation without logging protected content.
-- [ ] Define fallback, rate-limit, provider-degradation, rollback, incident, and post-incident evidence requirements.
+- [x] Define evaluation layers for components, tasks, workflows, regressions, safety, and release acceptance.
+- [x] Define dataset provenance, representative cases, adversarial cases, scoring limits, human review, and change-triggered reevaluation.
+- [x] Define AI-specific threat controls for prompt injection, data leakage, unauthorized tools, memory poisoning, model or dependency supply-chain risk, and audit tampering.
+- [x] Define observability for model calls, retrieval, tool effects, approvals, quality, cost, latency, failures, and correlation without logging protected content.
+- [x] Define fallback, rate-limit, provider-degradation, rollback, incident, and post-incident evidence requirements.
 
 **Pass condition:** a release decision can cite repeatable evaluation, threat review, operational signals, failure handling, and named residual-risk owners.
 
