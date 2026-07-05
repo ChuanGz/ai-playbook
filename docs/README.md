@@ -12,10 +12,10 @@ New to the subject? Start with [How to read this playbook](reading-guide.md), th
 | Lifecycle | Stable | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
 | Architecture | Stable | Runtime, retrieval, tool, protocol, and agent boundaries | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md), [tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md), [agent runtime](architecture/agent-runtime.md) |
 | Assurance | Stable | Evaluation, security, observability, and release evidence | [Evaluation and release](assurance/evaluation-and-release.md), [security and governance](assurance/security-and-governance.md), [observability and operations](assurance/observability-and-operations.md) |
-| Guides | Stable | End-to-end application of multiple contracts | [Bounded AI workflow to release review](guides/take-a-bounded-ai-workflow-to-release.md) |
+| Guides | Stable | End-to-end application of multiple contracts | [Bounded AI workflow to release review](guides/take-a-bounded-ai-workflow-to-release.md), [LLM wiki second brain](guides/build-an-llm-wiki-second-brain.md) |
 | Examples | Stable | Small artifacts that expose a decision or failure mode | [Grounded answer](examples/grounded-answer.md), [approval-gated MCP tool](examples/approval-gated-mcp-tool.md), [bounded agent](examples/bounded-research-agent.md) |
 | References | Stable | Public sources and repository interpretation rules | [References](references/README.md) |
-| Career | Stable | AI role scope, competency progression, transition paths, and professional evidence | [Career framework](career/README.md), [roadmap](career/roadmap.md), [roles](career/roles.md), [transition paths](career/transition-paths.md), [project evidence](career/project-evidence.md) |
+| Career | Stable | AI role scope, competency progression, transition paths, and professional evidence | [Career framework](career/README.md), [roadmap](career/roadmap.md), [roles](career/roles.md), [transition paths](career/transition-paths.md), [project evidence](career/project-evidence.md), [LLM/RAG/second-brain capability](career/llm-rag-second-brain-capability.md) |
 
 ## Choose a task
 
@@ -33,6 +33,7 @@ New to the subject? Start with [How to read this playbook](reading-guide.md), th
 | Prepare for operation and incidents | [Observability and operations](assurance/observability-and-operations.md) | User-impact signals, degradation, recovery, cost control, and incident ownership |
 | Take one workflow through the playbook | [Bounded AI workflow guide](guides/take-a-bounded-ai-workflow-to-release.md) | A reviewable path from outcome framing to release, revise, pilot, or stop |
 | Plan growth into an AI role | [AI career framework](career/README.md) | A target role, current-level assessment, focused transition path, and evidence plan |
+| Build a source-grounded second brain | [LLM wiki guide](guides/build-an-llm-wiki-second-brain.md) | An initialized knowledge workflow, grounded queries, maintenance controls, and capability evidence |
 
 ## Choose a role
 

@@ -20,6 +20,8 @@ This area brings the former `ai-career` People dimension into the playbook. The 
 3. Follow the closest [transition path](transition-paths.md) without relearning competencies already demonstrated.
 4. Build a reviewable case using the [project evidence standard](project-evidence.md).
 
+For a concrete learning project, use the [LLM, RAG, and second-brain capability checklist](llm-rag-second-brain-capability.md).
+
 Progression requires demonstrated scope, judgment, and outcomes—not title, tenure, course completion, tool familiarity, or certificate collection.
 
 ## Principles

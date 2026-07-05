@@ -1,6 +1,6 @@
 # AI Playbook Roadmap
 
-This checklist presents the eight milestones required to make `ai-playbook` a useful, vendor-neutral AI Engineering reference. A checked item has evidence in this repository or its Git history. File presence alone does not count as completion.
+This checklist records the completed milestones that make `ai-playbook` a useful, vendor-neutral AI Engineering reference. A checked item has evidence in this repository or its Git history. File presence alone does not count as completion.
 
 ## Milestone 1: Repository foundation — Complete
 
@@ -19,7 +19,7 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 - [x] Rewrite agent-runtime contracts into [agent runtime](docs/architecture/agent-runtime.md).
 - [x] Review the canonical documents for duplication, unsuitable material, private evidence, and unsupported claims.
 - [x] Publish and validate the canonical foundation on the public default branch.
-- [x] Keep reusable knowledge tooling, applications, and reference implementations outside this repository; integrate career guidance as the People dimension linked to canonical technical guidance.
+- [x] Keep standalone reusable knowledge tooling, personal corpora, applications, and reference implementations outside this repository; retain bounded knowledge-workflow guidance where it teaches canonical AI Engineering decisions.
 
 **Outcome:** `ai-playbook` has a public-safe canonical foundation with explicit content boundaries.
 
@@ -96,6 +96,17 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 - [x] Align repository scope, navigation, reading paths, diagrams, and release notes.
 
 **Outcome:** technical guidance and professional progression now share one canonical playbook, while employer-specific promotion decisions and private assessment evidence remain out of scope.
+
+## Milestone 10: LLM wiki and second-brain guidance — Complete
+
+- [x] Distill the reusable lessons from `ai-llm-wiki` without importing its personal raw corpus or duplicating a standalone engine.
+- [x] Document setup commands for repository-local and standalone LLM wikis.
+- [x] Explain capture, immutable evidence, ingest, semantic and exact retrieval, grounded query, distillation, and maintenance.
+- [x] Define how an LLM wiki supports a provenance-first second brain and where ordinary search or enterprise knowledge systems are preferable.
+- [x] Add pass conditions for demonstrating LLM, RAG, and second-brain engineering capability.
+- [x] Align repository scope, navigation, career evidence, and release notes.
+
+**Outcome:** a reader can build and assess a source-grounded second brain while keeping runtime tooling and personal knowledge outside the playbook.
 
 ## Roadmap rules
 

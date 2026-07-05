@@ -89,6 +89,17 @@ Read:
 
 Leave with: a target role, current competency level, first material gap, and an evidence plan that can be reviewed without relying on titles or certificates.
 
+### Engineer or learner: “I need to build a source-grounded second brain”
+
+Read:
+
+1. [Concepts in plain English](foundations/concepts-in-plain-english.md)
+2. [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md)
+3. [Build an LLM wiki as a second brain](guides/build-an-llm-wiki-second-brain.md)
+4. [LLM, RAG, and second-brain capability](career/llm-rag-second-brain-capability.md)
+
+Leave with: a working ingest-query-maintain loop, source-grounded answers, and reviewable evidence of the decisions and skills involved.
+
 ## How to use a page
 
 Canonical pages begin with a small contract. Read **Applies when**, **Does not apply when**, and **Expected output** first. Then:

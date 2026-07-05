@@ -32,7 +32,8 @@ The playbook documents decision controls and reference contracts. It is not a co
 - [Playbook diagrams](docs/playbook-map.md): see the decision lifecycle and capability/evidence map.
 - [System decision guide](docs/foundations/system-decision-guide.md): decide whether the solution needs deterministic software, model inference, retrieval, tools, a workflow, or an agent.
 - [AI career framework](docs/career/README.md): choose a role, competency level, transition path, and evidence plan.
-- [Eight-milestone roadmap](ROADMAP.md): see completed foundations, remaining work, and release gates.
+- [Build an LLM wiki second brain](docs/guides/build-an-llm-wiki-second-brain.md): initialize a provenance-first learning system and prove LLM, RAG, and knowledge-engineering capability.
+- [Roadmap](ROADMAP.md): see completed foundations, capability expansions, and release gates.
 - [Maintenance policy](MAINTENANCE.md): understand content maturity, review triggers, versioning, and deprecation.
 - [Changelog](CHANGELOG.md): review user-visible release changes.
 
@@ -46,7 +47,7 @@ Start with the [AI system decision guide](docs/foundations/system-decision-guide
 
 ## Scope
 
-This repository owns reusable AI Engineering system guidance and the professional growth framework needed to apply it: foundations, lifecycle decisions, architecture, assurance, role expectations, competency progression, learning transitions, and evidence standards. It does not own application code, vendor tutorials, generic software-engineering standards, employer-specific job architecture or promotion policy, organization-specific policy, generated output, private business evidence, legal advice, or production-readiness claims.
+This repository owns reusable AI Engineering system guidance and the professional growth framework needed to apply it: foundations, lifecycle decisions, architecture, assurance, bounded build guides, role expectations, competency progression, learning transitions, and evidence standards. It may explain reusable knowledge workflows such as an LLM wiki, but it does not own a standalone wiki engine, personal knowledge corpus, application code, vendor tutorial, generic software-engineering standard, employer-specific job architecture or promotion policy, organization-specific policy, generated output, private business evidence, legal advice, or production-readiness claim.
 
 ## Contributing
 
