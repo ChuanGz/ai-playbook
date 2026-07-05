@@ -1,5 +1,12 @@
 # Documentation Contribution Standards
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner+ |
+| Topics | documentation, contribution |
+| Purpose | Navigate contribution quality requirements |
+| Importance | Good to know |
+
 These standards define what acceptable playbook content looks like regardless of whether it is written manually, with an editor, or with an AI-assisted workflow.
 
 ## Required reading

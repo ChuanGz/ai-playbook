@@ -1,5 +1,12 @@
 # AI Architecture Decision Record
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | architecture-decisions, evidence |
+| Purpose | Record consequential AI design choices |
+| Importance | Important |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

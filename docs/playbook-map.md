@@ -1,5 +1,12 @@
 # Playbook Diagrams
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L1 Fundamentals |
+| Topics | AI-lifecycle, system-map |
+| Purpose | See how decisions, delivery, and operations connect |
+| Importance | Good to know |
+
 These diagrams show how the playbook fits together. They describe document responsibilities, not a deployable system architecture.
 
 For a guided entry point, use [How to read this playbook](reading-guide.md). For the capability progression from deterministic code to agents, use [AI concepts in plain English](foundations/concepts-in-plain-english.md).

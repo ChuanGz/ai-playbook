@@ -1,5 +1,12 @@
 # Examples
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | examples, engineering-contracts |
+| Purpose | Find small reviewable implementation patterns |
+| Importance | Good to know |
+
 Examples are small, illustrative artifacts that expose a specific decision or failure mode. They are not production reference architectures.
 
 ## Available examples

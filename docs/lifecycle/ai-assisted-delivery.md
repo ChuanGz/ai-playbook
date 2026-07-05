@@ -1,5 +1,12 @@
 # AI-Assisted Delivery
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | AI-assisted-development, verification |
+| Purpose | Accept generated work without weakening controls |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

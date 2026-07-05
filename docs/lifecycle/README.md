@@ -1,5 +1,12 @@
 # Lifecycle
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | AI-lifecycle, governance |
+| Purpose | Navigate initiative and delivery gates |
+| Importance | Important |
+
 Lifecycle documents govern how an AI-enabled initiative moves from proposal through delivery and evidence-backed continuation or stop decisions.
 
 ## Documents

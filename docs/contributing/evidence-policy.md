@@ -1,5 +1,12 @@
 # Evidence Policy
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | evidence, technical-writing |
+| Purpose | Keep guidance traceable and bounded |
+| Importance | Important |
+
 This policy defines how claims are supported and how external material enters the playbook.
 
 ## Evidence order

@@ -1,5 +1,12 @@
 # AI Career Roadmap
 
+| Learning metadata | Value |
+|---|---|
+| Career level | All levels |
+| Topics | AI-career, skill-progression |
+| Purpose | Identify the next capability and evidence gate |
+| Importance | Important |
+
 Use this role-neutral map to choose the next capability and its evidence gate. Skills are ordered by leverage; tools remain optional implementation choices.
 
 ```mermaid

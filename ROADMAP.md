@@ -108,6 +108,16 @@ This checklist records the completed milestones that make `ai-playbook` a useful
 
 **Outcome:** a reader can build and assess a source-grounded second brain while keeping runtime tooling and personal knowledge outside the playbook.
 
+## Milestone 11: Learning metadata and reindex — Complete
+
+- [x] Define career-level, topic, purpose, and importance semantics.
+- [x] Label every learning document under `docs/` with at least two searchable topics.
+- [x] Add a quick learning index to the documentation home.
+- [x] Distinguish reading from demonstrated career evidence.
+- [x] Recheck navigation, terminology, stale claims, and relative links.
+
+**Outcome:** readers can identify prerequisite level, subject, application, and priority without opening every document.
+
 ## Roadmap rules
 
 - Complete milestones in order unless a later research task is needed to unblock an earlier decision.

@@ -6,6 +6,8 @@ All notable user-visible changes to this project are documented here. The projec
 
 ### Added in the next release
 
+- A repository-wide learning metadata taxonomy covering career level, topic, practical purpose, and contextual importance.
+- A quick learning index for finding core documents without scanning the full repository tree.
 - A foundational semantic-retrieval mental model and a bounded career implication in the plain-English concepts guide.
 - An integrated AI career framework covering competency levels, role boundaries, transition paths, and project-evidence standards previously maintained separately in `ai-career`.
 - A build guide for provenance-first LLM wikis, including setup commands, second-brain workflow, RAG lessons, maintenance, and failure handling.

@@ -1,5 +1,12 @@
 # Evaluation and Release
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | evaluation, release-engineering |
+| Purpose | Make evidence-based release decisions |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

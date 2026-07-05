@@ -1,5 +1,12 @@
 # Tools, MCP, Memory, and Orchestration
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | MCP, orchestration |
+| Purpose | Connect models to tools with bounded authority |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

@@ -1,5 +1,12 @@
 # AI Career Framework
 
+| Learning metadata | Value |
+|---|---|
+| Career level | All levels |
+| Topics | AI-career, competency-model |
+| Purpose | Choose a role, learning path, and evidence plan |
+| Importance | Important |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

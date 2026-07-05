@@ -27,6 +27,8 @@ The playbook documents decision controls and reference contracts. It is not a co
 ## Start here
 
 - [How to read this playbook](docs/reading-guide.md): choose a short path by experience, role, or immediate problem.
+- [Quick learning index](docs/README.md#quick-learning-index): filter core knowledge by career level, topic, purpose, and importance.
+- [Learning metadata taxonomy](docs/metadata-taxonomy.md): understand what each label means and how it is maintained.
 - [AI concepts in plain English](docs/foundations/concepts-in-plain-english.md): understand the terms through one progressively expanded example.
 - [Documentation index](docs/README.md): enter by task and understand how the documents fit together.
 - [Playbook diagrams](docs/playbook-map.md): see the decision lifecycle and capability/evidence map.
@@ -43,7 +45,7 @@ No build or runtime setup is required. Read the Markdown files directly.
 
 ## Usage
 
-Start with the [AI system decision guide](docs/foundations/system-decision-guide.md), then use the [documentation index](docs/README.md) to apply the relevant controls. Record architecture decisions, thresholds, tests, approvals, and operational evidence in the consuming project; do not treat this repository as evidence that a system passed its own controls.
+If you are learning, start with the [quick learning index](docs/README.md#quick-learning-index) and select material at your current level, plus any lower-level critical gaps. If you are solving a system problem, start with the [AI system decision guide](docs/foundations/system-decision-guide.md), then apply the relevant controls from the [documentation index](docs/README.md). Record architecture decisions, thresholds, tests, approvals, and operational evidence in the consuming project; reading this repository is not evidence that a skill or system passed review.
 
 ## Scope
 

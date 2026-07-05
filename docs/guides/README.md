@@ -1,5 +1,12 @@
 # Guides
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | implementation-guides, verification |
+| Purpose | Navigate end-to-end engineering tasks |
+| Importance | Good to know |
+
 Guides combine multiple playbook contracts to help an experienced team complete a bounded engineering task.
 
 ## Available guides

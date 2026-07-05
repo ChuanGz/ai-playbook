@@ -1,5 +1,12 @@
 # LLM, RAG, and Second-Brain Capability
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | LLM-engineering, RAG |
+| Purpose | Demonstrate source-grounded knowledge-system skill |
+| Importance | Important |
+
 Use this evidence checklist to assess demonstrated capability. It is not a self-attestation based on reading, setup completion, or tool usage.
 
 ## Evidence levels

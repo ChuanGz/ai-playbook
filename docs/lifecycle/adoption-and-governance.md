@@ -1,5 +1,12 @@
 # Adoption and Governance
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L4 Lead |
+| Topics | AI-adoption, governance |
+| Purpose | Pilot, scale, revise, or stop initiatives |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

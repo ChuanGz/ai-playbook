@@ -1,5 +1,12 @@
 # Example: Approval-Gated MCP Tool
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | MCP, authorization |
+| Purpose | Implement approval-bound tool side effects |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable, illustrative |

@@ -1,5 +1,12 @@
 # AI Concepts in Plain English
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L1 Fundamentals |
+| Topics | LLM, AI-systems |
+| Purpose | Build a mental model of modern AI capabilities |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

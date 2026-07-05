@@ -1,5 +1,12 @@
 # Writing Standard
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | documentation, engineering-judgment |
+| Purpose | Write maintainable decision-oriented guidance |
+| Importance | Important |
+
 This standard preserves a careful, precise, evidence-led voice across the playbook.
 
 ## Document contract

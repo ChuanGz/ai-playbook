@@ -1,5 +1,12 @@
 # Glossary
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L1 Fundamentals |
+| Topics | terminology, AI-systems |
+| Purpose | Use consistent engineering language |
+| Importance | Important |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

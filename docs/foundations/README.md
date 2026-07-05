@@ -1,5 +1,12 @@
 # Foundations
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L1 Fundamentals |
+| Topics | AI-foundations, decision-making |
+| Purpose | Navigate core concepts and decisions |
+| Importance | Critical |
+
 Foundations define the durable language and decision rules used by every other section. Read them before selecting architecture or applying a release gate.
 
 ## Documents

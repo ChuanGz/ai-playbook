@@ -1,5 +1,12 @@
 # AI System Decision Guide
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | system-design, decision-making |
+| Purpose | Choose the least complex credible solution |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

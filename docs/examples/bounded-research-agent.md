@@ -1,5 +1,12 @@
 # Example: Bounded Research Agent
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | agents, research-workflows |
+| Purpose | Design bounded multi-step research |
+| Importance | Important |
+
 | Field | Value |
 |---|---|
 | Status | Stable, illustrative |

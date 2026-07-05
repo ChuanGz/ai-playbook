@@ -1,5 +1,12 @@
 # AI Role Map
 
+| Learning metadata | Value |
+|---|---|
+| Career level | All levels |
+| Topics | AI-roles, career-planning |
+| Purpose | Compare role scope and expected outcomes |
+| Importance | Good to know |
+
 Titles vary by organization. Use primary decision scope, expected deliverables, and demonstrated outcomes as the canonical distinction.
 
 | Role | Primary scope | Expected deliverables | Core competencies | Typical next scope |

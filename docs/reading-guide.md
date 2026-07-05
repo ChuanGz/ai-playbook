@@ -1,5 +1,12 @@
 # How to Read This Playbook
 
+| Learning metadata | Value |
+|---|---|
+| Career level | All levels |
+| Topics | learning-path, navigation |
+| Purpose | Choose the smallest useful reading path |
+| Importance | Important |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

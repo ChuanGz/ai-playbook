@@ -1,5 +1,12 @@
 # Career Transition Paths
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner+ |
+| Topics | career-transition, skill-gaps |
+| Purpose | Move into AI roles without relearning proven skills |
+| Importance | Good to know |
+
 Use the closest path and close only the evidence gaps. Existing engineering or leadership seniority remains valuable, but it does not automatically prove AI-specific scope.
 
 ## Fresher to AI Engineer

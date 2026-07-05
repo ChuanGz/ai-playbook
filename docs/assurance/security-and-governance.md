@@ -1,5 +1,12 @@
 # Security and Governance
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | AI-security, governance |
+| Purpose | Control data, authority, and model risk |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

@@ -1,5 +1,12 @@
 # Example: Grounded Answer Contract
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | RAG, grounding |
+| Purpose | Return cited answers with explicit uncertainty |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable, illustrative |

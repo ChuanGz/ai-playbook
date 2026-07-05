@@ -1,5 +1,12 @@
 # References
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner+ |
+| Topics | standards, source-validation |
+| Purpose | Verify claims against maintained primary sources |
+| Importance | Important |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

@@ -1,5 +1,12 @@
 # Architecture
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | architecture, system-design |
+| Purpose | Navigate runtime and trust-boundary design |
+| Importance | Important |
+
 Architecture documents define reusable boundaries for context, retrieval, tools, protocols, memory, orchestration, and agents.
 
 ## Recommended order

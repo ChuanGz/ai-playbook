@@ -1,5 +1,12 @@
 # Build an LLM Wiki as a Second Brain
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | RAG, second-brain |
+| Purpose | Build a provenance-first learning system |
+| Importance | Important |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

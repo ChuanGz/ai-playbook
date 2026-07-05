@@ -1,5 +1,12 @@
 # Agent Runtime
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | agents, distributed-systems |
+| Purpose | Design recoverable, bounded agent runtimes |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

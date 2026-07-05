@@ -1,5 +1,12 @@
 # Context, Retrieval, and Knowledge
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | RAG, context-engineering |
+| Purpose | Ground answers in governed knowledge |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

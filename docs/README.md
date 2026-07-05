@@ -1,8 +1,38 @@
 # Documentation Index
 
+| Learning metadata | Value |
+|---|---|
+| Career level | All levels |
+| Topics | documentation-index, learning-navigation |
+| Purpose | Find the smallest useful document set for a task or skill gap |
+| Importance | Critical |
+
 Use this index to choose the smallest set of guidance needed for a real decision. The documents are references and decision guides, not evidence that a consuming system passed review.
 
 New to the subject? Start with [How to read this playbook](reading-guide.md), then use [AI concepts in plain English](foundations/concepts-in-plain-english.md). You do not need to read the repository front to back.
+
+Every learning document is labeled by **career level**, at least two **topics**, its practical **purpose**, and **importance**. Read the [metadata taxonomy](metadata-taxonomy.md) before interpreting these labels: level means the earliest expected application level, and importance is conditional on the work being performed.
+
+## Quick learning index
+
+| Document | Earliest level | Topics | Purpose | Importance |
+|---|---|---|---|---|
+| [Concepts in plain English](foundations/concepts-in-plain-english.md) | L1 | LLM, AI systems | Build the core capability mental model | Critical |
+| [Principles](foundations/principles.md) | L1 | AI engineering, risk | Constrain AI decisions safely | Critical |
+| [Glossary](foundations/glossary.md) | L1 | terminology, AI systems | Establish shared language | Important |
+| [System decision guide](foundations/system-decision-guide.md) | L2 | system design, decisions | Choose the least complex credible solution | Critical |
+| [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md) | L2 | RAG, context engineering | Ground answers in governed knowledge | Critical |
+| [Tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md) | L3 | MCP, orchestration | Bound tools, authority, state, and delegation | Critical |
+| [Agent runtime](architecture/agent-runtime.md) | L3 | agents, distributed systems | Design recoverable agent runtimes | Critical |
+| [Evaluation and release](assurance/evaluation-and-release.md) | L2 | evaluation, release engineering | Decide whether a change can ship | Critical |
+| [Security and governance](assurance/security-and-governance.md) | L2 | AI security, governance | Control data, authority, and model risk | Critical |
+| [Observability and operations](assurance/observability-and-operations.md) | L3 | observability, operations | Detect, diagnose, and recover failures | Critical |
+| [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) | L2 | AI-assisted development, verification | Accept generated work safely | Critical |
+| [Adoption and governance](lifecycle/adoption-and-governance.md) | L4 | AI adoption, governance | Pilot, scale, revise, or stop initiatives | Critical |
+| [LLM wiki second brain](guides/build-an-llm-wiki-second-brain.md) | L2 | RAG, second brain | Build a provenance-first learning system | Important |
+| [Career framework](career/README.md) | All | AI career, competencies | Choose a role, path, and evidence plan | Important |
+
+Folder indexes and each document's own metadata cover the remaining guides, examples, templates, references, and contribution standards.
 
 ## Content map
 

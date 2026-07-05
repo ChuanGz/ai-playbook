@@ -1,5 +1,12 @@
 # AI Engineering Principles
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L1 Fundamentals |
+| Topics | AI-engineering, risk |
+| Purpose | Apply durable constraints to AI decisions |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

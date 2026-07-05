@@ -1,5 +1,12 @@
 # Assurance
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | assurance, risk-management |
+| Purpose | Navigate evidence and release controls |
+| Importance | Important |
+
 Assurance documents define the evidence needed to accept risk, release a change, operate it, and respond when controls fail.
 
 ## Documents

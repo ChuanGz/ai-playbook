@@ -1,5 +1,12 @@
 # Observability and Operations
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | observability, operations |
+| Purpose | Detect, diagnose, and recover AI failures |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |

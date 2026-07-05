@@ -1,5 +1,12 @@
 # Career Project Evidence
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L2 Practitioner |
+| Topics | career-evidence, portfolio |
+| Purpose | Prove capability with reviewable outcomes |
+| Importance | Important |
+
 Strong evidence demonstrates judgment and outcomes, not activity volume.
 
 For each project record:

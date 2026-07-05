@@ -1,5 +1,12 @@
 # Guide: Take a Bounded AI Workflow to Release Review
 
+| Learning metadata | Value |
+|---|---|
+| Career level | L3 Senior |
+| Topics | AI-delivery, release-engineering |
+| Purpose | Take one bounded workflow to release review |
+| Importance | Critical |
+
 | Field | Value |
 |---|---|
 | Status | Stable |
