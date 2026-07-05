@@ -15,6 +15,7 @@ New to the subject? Start with [How to read this playbook](reading-guide.md), th
 | Guides | Stable | End-to-end application of multiple contracts | [Bounded AI workflow to release review](guides/take-a-bounded-ai-workflow-to-release.md) |
 | Examples | Stable | Small artifacts that expose a decision or failure mode | [Grounded answer](examples/grounded-answer.md), [approval-gated MCP tool](examples/approval-gated-mcp-tool.md), [bounded agent](examples/bounded-research-agent.md) |
 | References | Stable | Public sources and repository interpretation rules | [References](references/README.md) |
+| Career | Stable | AI role scope, competency progression, transition paths, and professional evidence | [Career framework](career/README.md), [roadmap](career/roadmap.md), [roles](career/roles.md), [transition paths](career/transition-paths.md), [project evidence](career/project-evidence.md) |
 
 ## Choose a task
 
@@ -31,6 +32,7 @@ New to the subject? Start with [How to read this playbook](reading-guide.md), th
 | Review threats and authority | [Security and governance](assurance/security-and-governance.md) | Trust boundaries, deterministic controls, data handling, and owned exceptions |
 | Prepare for operation and incidents | [Observability and operations](assurance/observability-and-operations.md) | User-impact signals, degradation, recovery, cost control, and incident ownership |
 | Take one workflow through the playbook | [Bounded AI workflow guide](guides/take-a-bounded-ai-workflow-to-release.md) | A reviewable path from outcome framing to release, revise, pilot, or stop |
+| Plan growth into an AI role | [AI career framework](career/README.md) | A target role, current-level assessment, focused transition path, and evidence plan |
 
 ## Choose a role
 
@@ -42,6 +44,7 @@ New to the subject? Start with [How to read this playbook](reading-guide.md), th
 | Security reviewer | [Security and governance](assurance/security-and-governance.md) → [tools and MCP](architecture/tools-mcp-and-orchestration.md) → [evaluation and release](assurance/evaluation-and-release.md) |
 | Operator or SRE | [Agent runtime](architecture/agent-runtime.md) → [observability and operations](assurance/observability-and-operations.md) → [evaluation and release](assurance/evaluation-and-release.md) |
 | Contributor | [Writing standard](contributing/writing-standard.md) → [evidence policy](contributing/evidence-policy.md) → [contributing](../CONTRIBUTING.md) → [maintenance policy](../MAINTENANCE.md) |
+| AI career learner or reviewer | [Career roadmap](career/roadmap.md) → [role map](career/roles.md) → [transition paths](career/transition-paths.md) → [project evidence](career/project-evidence.md) |
 
 See [References](references/README.md) for the external standards and specifications that inform terminology and review questions. See [MAINTENANCE.md](../MAINTENANCE.md) for maturity, review, change, and deprecation rules.
 

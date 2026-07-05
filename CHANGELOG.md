@@ -6,12 +6,15 @@ All notable user-visible changes to this project are documented here. The projec
 
 ### Added in the next release
 
+- A foundational semantic-retrieval mental model and a bounded career implication in the plain-English concepts guide.
+- An integrated AI career framework covering competency levels, role boundaries, transition paths, and project-evidence standards previously maintained separately in `ai-career`.
 - Role-based reading paths that state the practical output expected for developers, AI engineers, staff engineers, architects, leaders, security reviewers, and operators.
 - A plain-English concept guide that explains the capability progression from deterministic code to agents through one concrete example.
 
 ### Changed in the next release
 
 - Annotated external references with approachable starting points and clear reasons to follow each link.
+- Expanded repository scope and navigation to own both AI system guidance and the People dimension required to apply it.
 
 ## 1.0.0 - 2026-07-04
 

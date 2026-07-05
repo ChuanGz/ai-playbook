@@ -78,6 +78,17 @@ Read:
 
 Leave with: trust boundaries, denied-action tests, revocation and recovery paths, telemetry, and named incident ownership.
 
+### Professional or hiring manager: “I need to assess growth into an AI role”
+
+Read:
+
+1. [Career roadmap](career/roadmap.md)
+2. [AI role map](career/roles.md)
+3. The closest [transition path](career/transition-paths.md)
+4. [Project evidence](career/project-evidence.md)
+
+Leave with: a target role, current competency level, first material gap, and an evidence plan that can be reviewed without relying on titles or certificates.
+
 ## How to use a page
 
 Canonical pages begin with a small contract. Read **Applies when**, **Does not apply when**, and **Expected output** first. Then:

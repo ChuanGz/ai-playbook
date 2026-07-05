@@ -39,6 +39,7 @@ flowchart TB
     S["Assurance<br/>evaluation, security, operations"]
     G["Guides<br/>end-to-end application"]
     E["Examples<br/>bounded contracts"]
+    C["Career<br/>roles, progression, evidence"]
     P["Consuming project evidence<br/>ADRs, tests, approvals, traces, incidents"]
 
     F --> L
@@ -53,6 +54,11 @@ flowchart TB
     G --> P
     E --> P
     S --> P
+    F --> C
+    L --> C
+    A --> C
+    S --> C
+    C --> P
 ```
 
 The playbook defines reusable questions and gates. Only the consuming project can produce evidence that its implementation passes them.

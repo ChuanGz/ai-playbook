@@ -9,7 +9,7 @@
 | Does not apply when | An exact repository definition is needed; use the glossary instead |
 | Expected output | A shared mental model and a pointer to the relevant decision guide |
 | Evidence basis | Repository contracts plus official protocol, security, risk, and observability references |
-| Last reviewed | 2026-07-04 |
+| Last reviewed | 2026-07-05 |
 
 Use one example throughout: a developer asks an internal assistant, “Which deployment policy applies to this service?” The safest useful design depends on what the assistant must know and do.
 
@@ -25,6 +25,66 @@ flowchart LR
 ```
 
 Moving right adds capability, but also adds failure modes, testing work, security boundaries, and operating cost. This is a classification aid, not a maturity ladder: an agent is not inherently better than deterministic code.
+
+## Foundational mental model: from symbols to useful meaning
+
+“AI does not understand text” is a useful warning, but it is too absolute. A language model receives **tokens** derived from text, represents them as learned numeric patterns, and uses those representations to predict an output. The representations can capture semantic relationships, but they are not human understanding and do not guarantee truth, authorization, or sound judgment.
+
+For a retrieval-based system, the common path is:
+
+```mermaid
+flowchart LR
+    D["Data<br/>documents, records, code"] --> P["Parse and segment<br/>preserve useful units"]
+    P --> E["Embedding<br/>encode learned features"]
+    E --> V["Vectors<br/>numeric representations"]
+    Q["User question"] --> QE["Query embedding"]
+    QE --> S["Similarity and ranking"]
+    V --> S
+    S --> R["Retrieval<br/>selected evidence"]
+    R --> C["Context<br/>authorized evidence + instructions"]
+    Q --> C
+    C --> L["LLM inference"]
+    L --> G["Generation<br/>answer or abstention"]
+    G --> X["Verification<br/>support, policy, and outcome checks"]
+```
+
+This diagram describes **semantic retrieval**, not every modern AI pipeline. Exact identifiers, legal wording, dates, permissions, and structured predicates may require lexical search, database queries, metadata filters, graph traversal, or hybrid retrieval. Similarity means “near under this representation and metric,” not “correct,” “relevant to the decision,” or “safe to use.”
+
+The practical lesson is to reason about meaning while preserving exact constraints. Embeddings help find conceptually related material; retrieval chooses candidate evidence; the LLM proposes an answer; verification decides whether that answer is supported and acceptable. Each arrow is an engineering boundary with its own versioning, evaluation, security, and failure behavior.
+
+This mental model is the foundation for learning Transformer and Attention (how representations are formed and related), fine-tuning (how model behavior is adapted), agents and MCP (how models access capabilities and context), and AI system design (how the full system is bounded and verified).
+
+### Career implication
+
+AI reduces the scarcity value of work that is easy to generate and mechanically check. It increases the leverage of work that frames the right problem, handles system consequences, and verifies outcomes.
+
+```mermaid
+flowchart LR
+    subgraph Lower["Value pressure: necessary, but easier to automate"]
+        direction TB
+        SY["Syntax"]
+        CR["Routine CRUD"]
+        BP["Boilerplate"]
+        FA["Framework API recall"]
+    end
+
+    subgraph Higher["Growing leverage: judgment under real constraints"]
+        direction TB
+        AR["Architecture"]
+        SD["System design"]
+        DS["Distributed systems"]
+        AE["AI engineering"]
+        DK["Domain knowledge"]
+        DM["Decision-making"]
+        VE["Verification"]
+    end
+
+    Lower -->|"AI shifts effort upward"| Higher
+```
+
+This is a direction of travel, not a claim that syntax, CRUD, boilerplate, or framework knowledge disappears. Engineers still need enough implementation fluency to inspect generated code, debug failures, understand performance and security consequences, and distinguish a plausible answer from a working system. The durable advantage is the combination of implementation literacy, domain judgment, architecture, and verification.
+
+Use the [AI career roadmap](../career/roadmap.md) to turn this direction into competency levels, role choices, and evidence gates.
 
 ## Model inference: generate a proposal
 

@@ -19,7 +19,7 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 - [x] Rewrite agent-runtime contracts into [agent runtime](docs/architecture/agent-runtime.md).
 - [x] Review the canonical documents for duplication, unsuitable material, private evidence, and unsupported claims.
 - [x] Publish and validate the canonical foundation on the public default branch.
-- [x] Keep career guidance, reusable knowledge tooling, applications, and reference implementations outside this repository.
+- [x] Keep reusable knowledge tooling, applications, and reference implementations outside this repository; integrate career guidance as the People dimension linked to canonical technical guidance.
 
 **Outcome:** `ai-playbook` has a public-safe canonical foundation with explicit content boundaries.
 
@@ -85,6 +85,17 @@ This checklist presents the eight milestones required to make `ai-playbook` a us
 - [x] Prepare the first release after Milestones 3–7 satisfy their pass conditions.
 
 **Outcome:** readers can enter by role or task, follow consistent terminology, trace important claims, and distinguish documented contracts from system-specific evidence.
+
+## Milestone 9: Career and competency integration — Complete
+
+- [x] Bring the reusable People dimension from `ai-career` into `docs/career/`.
+- [x] Define competency levels from fundamentals through distinguished scope.
+- [x] Consolidate role profiles into a comparison-oriented role map.
+- [x] Preserve focused transition paths without repeating generic software-engineering education.
+- [x] Define portfolio evidence that distinguishes decisions and outcomes from activity volume.
+- [x] Align repository scope, navigation, reading paths, diagrams, and release notes.
+
+**Outcome:** technical guidance and professional progression now share one canonical playbook, while employer-specific promotion decisions and private assessment evidence remain out of scope.
 
 ## Roadmap rules
 

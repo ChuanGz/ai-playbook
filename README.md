@@ -1,6 +1,6 @@
 # AI Engineering Playbook
 
-A vendor-neutral playbook for engineers and technical leaders who must decide where AI belongs, control its failure modes, and require evidence before adoption or release.
+A vendor-neutral playbook for engineers and technical leaders who must design AI systems, control their failure modes, and grow the professional judgment needed to deliver them.
 
 ## What this repository gives you
 
@@ -14,6 +14,7 @@ This playbook turns broad advice such as “use RAG,” “add an agent,” or �
 | Architect | Separate system responsibilities and trust boundaries while avoiding unnecessary agent complexity |
 | Engineering leader | Set pilot, ownership, approval, scale, and stop gates without pretending that a demo proves value |
 | Security or operations reviewer | Review authority, data handling, failure recovery, telemetry, cost, and incident ownership |
+| Professional or hiring manager | Map AI roles and competency levels to reviewable evidence rather than titles, tools, or certificates |
 
 The repository does not teach a framework API. It helps readers ask better questions before choosing one and verify the resulting system afterward.
 
@@ -30,6 +31,7 @@ The playbook documents decision controls and reference contracts. It is not a co
 - [Documentation index](docs/README.md): enter by task and understand how the documents fit together.
 - [Playbook diagrams](docs/playbook-map.md): see the decision lifecycle and capability/evidence map.
 - [System decision guide](docs/foundations/system-decision-guide.md): decide whether the solution needs deterministic software, model inference, retrieval, tools, a workflow, or an agent.
+- [AI career framework](docs/career/README.md): choose a role, competency level, transition path, and evidence plan.
 - [Eight-milestone roadmap](ROADMAP.md): see completed foundations, remaining work, and release gates.
 - [Maintenance policy](MAINTENANCE.md): understand content maturity, review triggers, versioning, and deprecation.
 - [Changelog](CHANGELOG.md): review user-visible release changes.
@@ -44,7 +46,7 @@ Start with the [AI system decision guide](docs/foundations/system-decision-guide
 
 ## Scope
 
-This repository owns reusable AI Engineering decision guidance and reference contracts. It does not own application code, vendor tutorials, generic software-engineering standards, career frameworks, organization-specific policy, generated output, private business evidence, legal advice, or production-readiness claims.
+This repository owns reusable AI Engineering system guidance and the professional growth framework needed to apply it: foundations, lifecycle decisions, architecture, assurance, role expectations, competency progression, learning transitions, and evidence standards. It does not own application code, vendor tutorials, generic software-engineering standards, employer-specific job architecture or promotion policy, organization-specific policy, generated output, private business evidence, legal advice, or production-readiness claims.
 
 ## Contributing
 
