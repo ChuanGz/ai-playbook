@@ -29,7 +29,7 @@ Every learning document is labeled by **career level**, at least two **topics**,
 | [Observability and operations](assurance/observability-and-operations.md) | L3 | observability, operations | Detect, diagnose, and recover failures | Critical |
 | [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) | L2 | AI-assisted development, verification | Accept generated work safely | Critical |
 | [Adoption and governance](lifecycle/adoption-and-governance.md) | L4 | AI adoption, governance | Pilot, scale, revise, or stop initiatives | Critical |
-| [LLM wiki second brain](guides/build-an-llm-wiki-second-brain.md) | L2 | RAG, second brain | Build a provenance-first learning system | Important |
+| [Applied RAG and provenance guide](guides/build-an-llm-wiki-second-brain.md) | L2 | RAG, second brain | Apply retrieval and provenance controls through an LLM wiki case study | Important |
 | [Career framework](career/README.md) | All | AI career, competencies | Choose a role, path, and evidence plan | Important |
 
 Folder indexes and each document's own metadata cover the remaining guides, examples, templates, references, and contribution standards.
@@ -42,7 +42,7 @@ Folder indexes and each document's own metadata cover the remaining guides, exam
 | Lifecycle | Stable | Adoption and engineering-delivery gates | [Adoption and governance](lifecycle/adoption-and-governance.md), [AI-assisted delivery](lifecycle/ai-assisted-delivery.md) |
 | Architecture | Stable | Runtime, retrieval, tool, protocol, and agent boundaries | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md), [tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md), [agent runtime](architecture/agent-runtime.md) |
 | Assurance | Stable | Evaluation, security, observability, and release evidence | [Evaluation and release](assurance/evaluation-and-release.md), [security and governance](assurance/security-and-governance.md), [observability and operations](assurance/observability-and-operations.md) |
-| Guides | Stable | End-to-end application of multiple contracts | [Bounded AI workflow to release review](guides/take-a-bounded-ai-workflow-to-release.md), [LLM wiki second brain](guides/build-an-llm-wiki-second-brain.md) |
+| Guides | Stable | End-to-end application of multiple contracts | [Bounded AI workflow to release review](guides/take-a-bounded-ai-workflow-to-release.md), [applied RAG and provenance guide](guides/build-an-llm-wiki-second-brain.md) |
 | Examples | Stable | Small artifacts that expose a decision or failure mode | [Grounded answer](examples/grounded-answer.md), [approval-gated MCP tool](examples/approval-gated-mcp-tool.md), [bounded agent](examples/bounded-research-agent.md) |
 | References | Stable | Public sources and repository interpretation rules | [References](references/README.md) |
 | Career | Stable | AI role scope, competency progression, transition paths, and professional evidence | [Career framework](career/README.md), [roadmap](career/roadmap.md), [roles](career/roles.md), [transition paths](career/transition-paths.md), [project evidence](career/project-evidence.md), [LLM/RAG/second-brain capability](career/llm-rag-second-brain-capability.md) |
@@ -63,7 +63,7 @@ Folder indexes and each document's own metadata cover the remaining guides, exam
 | Prepare for operation and incidents | [Observability and operations](assurance/observability-and-operations.md) | User-impact signals, degradation, recovery, cost control, and incident ownership |
 | Take one workflow through the playbook | [Bounded AI workflow guide](guides/take-a-bounded-ai-workflow-to-release.md) | A reviewable path from outcome framing to release, revise, pilot, or stop |
 | Plan growth into an AI role | [AI career framework](career/README.md) | A target role, current-level assessment, focused transition path, and evidence plan |
-| Build a source-grounded second brain | [LLM wiki guide](guides/build-an-llm-wiki-second-brain.md) | An initialized knowledge workflow, grounded queries, maintenance controls, and capability evidence |
+| Apply RAG and provenance controls to a learning system | [Applied RAG and provenance guide](guides/build-an-llm-wiki-second-brain.md) | An initialized knowledge workflow, grounded queries, maintenance controls, and capability evidence |
 
 ## Choose a role
 
@@ -80,6 +80,20 @@ Folder indexes and each document's own metadata cover the remaining guides, exam
 See [References](references/README.md) for the external standards and specifications that inform terminology and review questions. See [MAINTENANCE.md](../MAINTENANCE.md) for maturity, review, change, and deprecation rules.
 
 See [Playbook map](playbook-map.md) for the decision lifecycle and capability/evidence map.
+
+## Canonical concept owners
+
+Do not re-explain the same concept in every page. Use the owner page for the durable explanation, then link to it and describe only the local decision.
+
+| Concept | Canonical owner | Other pages should add only... |
+|---|---|---|
+| Capability shape and escalation | [System decision guide](foundations/system-decision-guide.md) | Local evidence that a simpler shape is insufficient |
+| AI vocabulary and first mental model | [Concepts in plain English](foundations/concepts-in-plain-english.md) | A short reminder or exact glossary link |
+| Retrieval, grounding, and knowledge lifecycle | [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md) | Use-case-specific source, access, freshness, or evaluation detail |
+| Tools, MCP, memory, planning, and delegation | [Tools, MCP, memory, and orchestration](architecture/tools-mcp-and-orchestration.md) | The exact capability boundary and approval path |
+| Stateful agent runtime | [Agent runtime](architecture/agent-runtime.md) | Which runtime guarantees are required or explicitly out of scope |
+| Evaluation, security, and operations | [Assurance](assurance/README.md) | System-specific thresholds, owners, and evidence |
+| Career progression and role evidence | [Career framework](career/README.md) | The target role, demonstrated gap, and reviewable evidence |
 
 ## Recommended sequence
 
