@@ -1,24 +1,26 @@
-# Build an LLM Wiki as a Second Brain
+# Apply RAG and Provenance Controls with an LLM Wiki
 
 | Learning metadata | Value |
 |---|---|
 | Career level | L2 Practitioner |
 | Topics | RAG, second-brain |
-| Purpose | Build a provenance-first learning system |
+| Purpose | Apply retrieval and provenance controls through a bounded knowledge workflow |
 | Importance | Important |
 
 | Field | Value |
 |---|---|
 | Status | Stable |
-| Audience | Engineers who want a local, source-grounded learning system maintained with an LLM |
-| Decision supported | How to build a durable second brain without confusing generated notes, semantic retrieval, and authoritative sources |
+| Audience | Engineers who need a concrete case study for source-grounded knowledge workflows |
+| Decision supported | How to preserve evidence, derive reusable knowledge, and answer with citations without confusing generated notes with source truth |
 | Applies when | Knowledge must compound across sources, projects, and repeated questions with inspectable provenance |
 | Does not apply when | A document folder, ordinary search, or a managed notebook already satisfies the outcome |
 | Expected output | An initialized wiki, one ingested source, one grounded query, a clean maintenance review, and reviewable skill evidence |
 | Evidence basis | The retired `ai-llm-wiki` engine, its dogfood workspace, and this repository's retrieval and verification contracts |
 | Last reviewed | 2026-07-05 |
 
-An LLM wiki is not merely a folder of generated summaries. It is a controlled transformation from immutable evidence into navigable knowledge and reusable, source-grounded answers.
+This guide uses an LLM wiki as an applied case study for the [context, retrieval, and knowledge](../architecture/context-retrieval-and-knowledge.md) contract. The goal is not to promote a standalone wiki product. The goal is to show how immutable evidence, derived notes, retrieval, citations, and maintenance controls work together.
+
+An LLM wiki is useful here because it makes the hidden parts of RAG visible: what was captured, what was transformed, what was retrieved, what was inferred, and what still needs review.
 
 ## Mental model
 
@@ -43,7 +45,7 @@ The layers have different authority:
 
 This differs from query-time RAG alone. RAG can retrieve fragments for one answer; a second brain also preserves durable concepts, relationships, maps, corrections, and prior useful questions so knowledge compounds.
 
-## Decide whether to build it
+## Decide whether this case study fits
 
 Use an LLM wiki when all are true:
 
@@ -52,7 +54,7 @@ Use an LLM wiki when all are true:
 3. Relationships across sources matter.
 4. Someone will curate duplicates, contradictions, stale claims, and broken links.
 
-Prefer ordinary files and search when the corpus is small and exact lookup is enough. Prefer a governed enterprise knowledge system when tenant isolation, legal retention, centralized access policy, or high-scale serving is the primary problem.
+Prefer ordinary files and search when the corpus is small and exact lookup is enough. Prefer a governed enterprise knowledge system when tenant isolation, legal retention, centralized access policy, or high-scale serving is the primary problem. In those cases, use this page for the provenance and evaluation questions, not for the folder structure.
 
 ## Prerequisites
 
@@ -197,7 +199,7 @@ rg -n '\[\[[^]]+\]\]' wiki
 
 These commands expose candidates for review; they do not prove that links resolve or claims are true. A proper lint must validate schema, paths, provenance, duplicates, indexes, and source immutability.
 
-## RAG design lessons
+## RAG and provenance design lessons
 
 1. **Preserve evidence before embedding.** An index is derived state and must be rebuildable.
 2. **Chunk by meaning.** Preserve the section, procedure, record, or code symbol needed to judge a claim.
@@ -218,6 +220,10 @@ These commands expose candidates for review; they do not prove that links resolv
 ## Capability evidence
 
 Completing the setup does not prove LLM, RAG, or second-brain skill. Use the [LLM, RAG, and second-brain capability checklist](../career/llm-rag-second-brain-capability.md) to produce reviewable evidence.
+
+## What stays outside this repository
+
+The reusable lesson belongs here: evidence layers, source authority, retrieval evaluation, grounded querying, maintenance, and capability evidence. Runtime code, personal notes, private corpora, generated wiki output, and project-specific operating logs belong in the consuming repository or knowledge system.
 
 ## Related guidance
 

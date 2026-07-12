@@ -85,12 +85,26 @@ Every item must prevent a named failure or require observable evidence. Replace 
 - Use one H1 matching the reader-facing title.
 - Prefer the smallest useful document; split only for a different reader goal or ownership boundary.
 - Update the nearest section index and the root documentation index in the same change.
+- Before repeating a concept, check the [canonical concept owners](../README.md#canonical-concept-owners). Link to the owner page and explain only the local decision.
+
+## Document type gates
+
+| Type | Primary job | Required artifact | Duplication check |
+|---|---|---|---|
+| Canonical guide | Define one durable decision or gate | Decision, alternatives, failure modes, and evidence | Owns the durable explanation for its concept |
+| Section index | Route readers to the smallest useful set | Purpose, order, and boundaries for the section | Summarizes; does not re-teach canonical content |
+| Applied guide | Combine contracts in one bounded situation | Steps, validation, failure handling, and evidence | Uses canonical links for concepts and keeps only local application |
+| Example | Expose one decision or failure mode | Context, selected design, rejected alternative, and pass evidence | Does not become a reference architecture |
+| Career page | Connect capability to reviewable evidence | Role, level, gap, transition, or evidence plan | Does not repeat system guidance beyond the competency implication |
+| Reference page | Explain source relevance and interpretation | Source, reviewed date, claim informed, and boundary | Does not turn a source into a universal repository rule |
 
 ## Review gate
 
 - [ ] The document contract is complete and accurate.
+- [ ] The page has one primary decision, task, or routing job.
 - [ ] The recommendation names conditions, alternatives, tradeoffs, and failures.
 - [ ] Normative statements have a reason and observable evidence.
 - [ ] Examples expose judgment without invented results.
 - [ ] Claims follow the [Evidence Policy](evidence-policy.md).
+- [ ] Repeated concepts link to their canonical owner instead of restating the same explanation.
 - [ ] Navigation, terminology, maturity state, and review date are current.

@@ -45,7 +45,7 @@ Use this evidence checklist to assess demonstrated capability. It is not a self-
 
 ## Minimum demonstration project
 
-Build one wiki using the [second-brain guide](../guides/build-an-llm-wiki-second-brain.md), then present:
+Use the [applied RAG and provenance guide](../guides/build-an-llm-wiki-second-brain.md) to build one bounded knowledge workflow, then present:
 
 1. At least three authorized sources with revisions or capture dates.
 2. Source cards, summaries, atomic concepts, entities, and one topic map.
