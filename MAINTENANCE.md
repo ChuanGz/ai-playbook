@@ -48,6 +48,8 @@ The accepting maintainer owns repository consistency. Contributors own the accur
 A maintenance change passes when:
 
 - navigation, maturity state, and affected terminology agree;
+- changed pages preserve one primary decision, task, or routing job;
+- repeated concepts link to the canonical owner in the documentation index instead of restating the same explanation;
 - Markdown, internal links, external links, and repository-hygiene checks pass;
 - no private evidence, machine output, unsupported maturity claim, or stale duplicate is introduced;
 - changed guidance identifies its scope, alternatives, failure behavior, and validation;
