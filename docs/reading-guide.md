@@ -137,3 +137,7 @@ After reading, answer four questions:
 4. What evidence would make the decision change?
 
 If none can be answered, the page has not yet helped with the current problem. Choose a task from the [documentation index](README.md) instead of continuing sequentially.
+
+## When adding or revising pages
+
+Before adding a new explanation, check the [canonical concept owners](README.md#canonical-concept-owners). A page should repeat only enough context for the reader to follow the local decision. If the same problem statement, definition, or warning appears in several places, keep the durable version in the owner page and replace the duplicate with a focused link.
