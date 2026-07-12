@@ -2,6 +2,17 @@
 
 This checklist records the completed milestones that make `ai-playbook` a useful, vendor-neutral AI Engineering reference. A checked item has evidence in this repository or its Git history. File presence alone does not count as completion.
 
+## Current maintenance focus
+
+The baseline is complete. Future work should improve clarity, remove duplication, refresh evidence, or add a bounded applied guide only when it strengthens the repository's core identity: AI decisions, contracts, gates, and evidence.
+
+| Focus | Next change should... | Avoid... |
+|---|---|---|
+| Identity | Keep README, indexes, roadmap, and maintenance policy aligned on the same promise | New slogans, broad problem statements, or unsupported maturity claims |
+| Concept ownership | Move durable explanations to their canonical owner and link from local pages | Repeating definitions across foundations, architecture, assurance, guides, and career pages |
+| Applied guides | Show how multiple contracts work together in one bounded situation | Turning a guide into a standalone product, tool manual, or reference implementation |
+| Review evidence | Preserve one decision, one artifact, and one evidence expectation per page | File-count completion, vague quality claims, or examples without a failure mode |
+
 ## Milestone 1: Repository foundation — Complete
 
 - [x] Create the public `ChuanGz/ai-playbook` repository.
