@@ -96,16 +96,16 @@ Read:
 
 Leave with: a target role, current competency level, first material gap, and an evidence plan that can be reviewed without relying on titles or certificates.
 
-### Engineer or learner: “I need to build a source-grounded second brain”
+### Engineer or learner: “I need to apply RAG and provenance controls”
 
 Read:
 
 1. [Concepts in plain English](foundations/concepts-in-plain-english.md)
 2. [Context, retrieval, and knowledge](architecture/context-retrieval-and-knowledge.md)
-3. [Build an LLM wiki as a second brain](guides/build-an-llm-wiki-second-brain.md)
+3. [Applied RAG and provenance guide](guides/build-an-llm-wiki-second-brain.md)
 4. [LLM, RAG, and second-brain capability](career/llm-rag-second-brain-capability.md)
 
-Leave with: a working ingest-query-maintain loop, source-grounded answers, and reviewable evidence of the decisions and skills involved.
+Leave with: a working ingest-query-maintain loop, source-grounded answers, and reviewable evidence for retrieval, provenance, maintenance, and capability decisions.
 
 ## How to use a page
 
